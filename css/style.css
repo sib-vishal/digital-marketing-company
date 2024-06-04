@@ -457,8 +457,16 @@ section {
   background-color: var(--primary-color);
   outline: 1px solid var(--primary-color);
 }
-.counter{
-  b
+
+/* our Clients */
+.ourClient {
+  background: #f6f6f6a9;
+}
+.counter {
+  /* border: 1px solid black; */
+}
+.row .counter:nth-child(1) {
+  border-bottom: 1px solid black;
 }
 /* .footer_Links ul li a:after {
   content: "\f105";

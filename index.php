@@ -274,7 +274,7 @@
 
     </div>
   </section>
-  <section>
+  <section class="ourClient">
     <div class="containerFull">
       <div class="row">
 
@@ -292,32 +292,32 @@
 
         </div>
         <div class="col-lg-6">
-          <div class="row b">
+          <div class="row ">
 
             <div class="counter p-5   col-lg-6 text-center">
-              <p>Leads Generated</p>
-              <h3 class="mt-3">
+              <p class="text-color1 fontWeight500">Leads Generated</p>
+              <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
             </div>
             <div class="counter p-5   col-lg-6 text-center">
-              <p>Leads Generated</p>
-              <h3 class="mt-3">
+              <p class="text-color1 fontWeight500">Leads Generated</p>
+              <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
             </div>
             <div class="counter p-5   col-lg-6 text-center">
-              <p>Leads Generated</p>
-              <h3 class="mt-3">
+              <p class="text-color1 fontWeight500">Leads Generated</p>
+              <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
             </div>
             <div class="counter p-5   col-lg-6 text-center">
-              <p>Leads Generated</p>
-              <h3 class="mt-3">
+              <p class="text-color1 fontWeight500">Leads Generated</p>
+              <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
