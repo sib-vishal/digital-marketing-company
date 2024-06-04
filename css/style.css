@@ -461,13 +461,42 @@ section {
 /* our Clients */
 .ourClient {
   background: #f6f6f6a9;
+  border: transparent;
 }
-.counter {
-  /* border: 1px solid black; */
+
+.Countergrid {
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  background-color: #000;
+
+  grid-gap: 1px;
 }
-.row .counter:nth-child(1) {
+
+.Countergrid > * {
+  background-color: #fff;
+}
+
+/* contact */
+.contact_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0px;
+  & i {
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+  & p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+/* .row .counter:nth-child(1) {
   border-bottom: 1px solid black;
-}
+} */
 /* .footer_Links ul li a:after {
   content: "\f105";
   position: absolute;

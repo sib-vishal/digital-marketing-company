@@ -89,8 +89,7 @@
             <h3 data-aos="zoom-in-up" class="heading my-3  fontWeight500  aos-init aos-animate text-color1 ">Our
               Services
             </h3>
-            <h4 data-aos="zoom-in-up"
-              class="large_heading  font-Archivo    headingColor fontHeading mt-3 aos-init aos-animate">
+            <h4 data-aos="zoom-in-up" class="large_heading  font-Archivo    headingColor fontHeading mt-3 aos-init aos-animate">
               Find the
               Perfect Solution for Your Business</h4>
           </div>
@@ -292,30 +291,30 @@
 
         </div>
         <div class="col-lg-6">
-          <div class="row ">
+          <div class="Countergrid ">
 
-            <div class="counter p-5   col-lg-6 text-center">
+            <div class="counter px-3 py-5    text-center">
               <p class="text-color1 fontWeight500">Leads Generated</p>
               <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
             </div>
-            <div class="counter p-5   col-lg-6 text-center">
+            <div class="counter px-3 py-5    text-center">
               <p class="text-color1 fontWeight500">Leads Generated</p>
               <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
             </div>
-            <div class="counter p-5   col-lg-6 text-center">
+            <div class="counter px-3 py-5    text-center">
               <p class="text-color1 fontWeight500">Leads Generated</p>
               <h3 class="mt-3 large_heading">
                 65K
               </h3>
 
             </div>
-            <div class="counter p-5   col-lg-6 text-center">
+            <div class="counter px-3 py-5    text-center">
               <p class="text-color1 fontWeight500">Leads Generated</p>
               <h3 class="mt-3 large_heading">
                 65K
@@ -328,6 +327,103 @@
       </div>
 
     </div>
+
+
+  </section>
+  <section>
+    <div class="containerFull">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="large_heading">
+            Get in Touch with Us 👋
+          </h3>
+          <p class="title">
+            Feel free to connect with us for any of your needs regarding our services. Our support team is ready to solve any of your issues. Just push a text to us and we will get back to you immediately.
+
+          </p>
+          <p class=" mt-4 fontWeight500 heading">
+            India
+          </p>
+          <hr class="w-75">
+          <div class="contact_item">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>
+
+              Bhubaneswar, Odisha 751024
+            </p>
+          </div>
+          <div class="contact_item">
+            <i class="fa-solid fa-envelope"></i>
+            <p>
+
+              company@gmail.com
+            </p>
+          </div>
+          <div class="contact_item">
+            <i class="fa-solid fa-phone"></i>
+            <p>
+
+              +91 123467890
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <div class="row">
+              <div class="">
+                <div class="">
+                  <!-- <label for="name">
+                    Name</label> -->
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required="required" />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <!-- <label for="email">
+                    Email Address</label> -->
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                    </span>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required="required" />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <!-- <label for="subject">
+                    Mobile No.</label> -->
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
+                    </span>
+                    <input type="phone" class="form-control" id="phone" placeholder="Enter your phone no." required="required" />
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="form-group">
+                  <!-- <label for="name">
+                    Message</label> -->
+                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+
+                <div class="col-md-12">
+                  <button type="submit" class=" header_Btn border-0 w-100  ">Send Message</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
 
 
   </section>
