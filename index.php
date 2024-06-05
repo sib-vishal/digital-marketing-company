@@ -27,7 +27,7 @@
     </video>
     <div class="containerFull w-100  banner_content">
       <div class=" text-white">
-        <h4 class="companyName">POV MEDIA</h4>
+        <h4 class="companyName fontWeight800">POV MEDIA</h4>
         <h1 class="fontWeight800  banner_heading">Digital Marketing Services</h1>
         <p class="sub_heading">Want to know what it takes to grow your business online? Let us show you.</p>
         <a href="#" class="header_Btn">Contact Us <i class="fa fa-arrow-right"></i></a>
@@ -89,7 +89,8 @@
             <h3 data-aos="zoom-in-up" class="heading my-3  fontWeight500  aos-init aos-animate text-color1 ">Our
               Services
             </h3>
-            <h4 data-aos="zoom-in-up" class="large_heading  font-Archivo    headingColor fontHeading mt-3 aos-init aos-animate">
+            <h4 data-aos="zoom-in-up"
+              class="large_heading  font-Archivo    headingColor fontHeading mt-3 aos-init aos-animate">
               Find the
               Perfect Solution for Your Business</h4>
           </div>
@@ -336,10 +337,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h3 class="large_heading">
-            Get in Touch with Us 👋
+            Get in Touch with Us
           </h3>
           <p class="title">
-            Feel free to connect with us for any of your needs regarding our services. Our support team is ready to solve any of your issues. Just push a text to us and we will get back to you immediately.
+            Feel free to connect with us for any of your needs regarding our services. Our support team is ready to
+            solve any of your issues. Just push a text to us and we will get back to you immediately.
 
           </p>
           <p class=" mt-4 fontWeight500 heading">
@@ -379,7 +381,7 @@
                   <div class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
                     </span>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required="required" />
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" />
                   </div>
                 </div>
                 <div class="form-group mt-3">
@@ -388,7 +390,8 @@
                   <div class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                     </span>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required="required" />
+                    <input type="email" class="form-control" id="email" placeholder="Email Address"
+                      required="required" />
                   </div>
                 </div>
                 <div class="form-group mt-3">
@@ -397,7 +400,7 @@
                   <div class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
                     </span>
-                    <input type="phone" class="form-control" id="phone" placeholder="Enter your phone no." required="required" />
+                    <input type="phone" class="form-control" id="phone" placeholder="Phone No." required="required" />
                   </div>
                 </div>
               </div>
@@ -405,7 +408,8 @@
                 <div class="form-group">
                   <!-- <label for="name">
                     Message</label> -->
-                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                    placeholder="Message"></textarea>
                 </div>
               </div>
               <div class="form-group mt-3">
