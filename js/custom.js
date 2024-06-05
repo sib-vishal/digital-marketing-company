@@ -134,7 +134,7 @@ $(function () {
   });
 });
 $(".serviceSlider").slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   autoplay: true,
@@ -146,6 +146,47 @@ $(".serviceSlider").slick({
     "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
   slidesToScroll: 1,
   slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false,
+      },
+    },
+  ],
+});
+$(".reviews").slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: true,
+  prevArrow:
+    "<button type='button' class='slick-prev pull-left'><i class='bi bi-chevron-left'></i></button>",
+  nextArrow:
+    "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
+  slidesToScroll: 1,
+  slidesToShow: 1,
   responsive: [
     {
       breakpoint: 1024,
@@ -280,4 +321,30 @@ $(function () {
   $(document).click(function () {
     $(".popupForm").fadeOut();
   });
+});
+
+// case study js
+$(document).ready(function () {
+  $(".filter-button").click(function () {
+    var value = $(this).attr("data-filter");
+
+    if (value == "all") {
+      //$('.filter').removeClass('hidden');
+      $(".filter").show("1000");
+    } else {
+      //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+      //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+      $(".filter")
+        .not("." + value)
+        .hide("3000");
+      $(".filter")
+        .filter("." + value)
+        .show("3000");
+    }
+  });
+
+  if ($(".filter-button").removeClass("active")) {
+    $(this).removeClass("active");
+  }
+  $(this).addClass("active");
 });

@@ -19,64 +19,110 @@
 </head>
 
 <body onload="createCaptcha();">
-  <?php include 'include/header.php'; ?>
-  <div class="banner ">
+  <div class="wrapper ">
 
-    <video class="banner_video " loop="" autoplay="" muted="" playsinline="">
-      <source src="https://marketingexperts.in/projects/agora-digital/images/banner/banner.mp4" type="video/mp4">
-    </video>
-    <div class="containerFull w-100  banner_content">
-      <div class=" text-white">
-        <h4 class="companyName fontWeight800">POV MEDIA</h4>
-        <h1 class="fontWeight800  banner_heading">Digital Marketing Services</h1>
-        <p class="sub_heading">Want to know what it takes to grow your business online? Let us show you.</p>
-        <a href="#" class="header_Btn">Contact Us <i class="fa fa-arrow-right"></i></a>
+    <?php include 'include/header.php'; ?>
 
+
+    <div class="">
+      <div class="row banner_content  m-0">
+        <div class="col-lg-6  banner_content_first ">
+          <div class="">
+            <h4 class="companyName fontWeight800">POV MEDIA</h4>
+            <h1 class="fontWeight800  banner_heading font-Archivo">Social Media Marketing Agency</h1>
+            <p class="sub_heading">Want to know what it takes to grow your business online? Let us show you.</p>
+            <a href="#" class="btn_1">Let's discuss <i class="fa fa-arrow-right"></i></a>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6 position-relative overflow-hidden banner_video_main ">
+
+          <video class="banner_video " loop="" autoplay="" muted="" playsinline="">
+            <source src="https://marketingexperts.in/projects/agora-digital/images/banner/banner.mp4" type="video/mp4">
+          </video>
+
+        </div>
       </div>
     </div>
-    <div class="arrow ">
 
-      <img src="images/banner/arrow.png">
-      <p>Scroll Down</p>
-    </div>
   </div>
+
 
   <!-- about -->
   <section class="about">
-    <div class="containerFull  row">
+    <div class="containerFull  row align-items-center">
       <div class="col-lg-5">
-        <img class="object-fit-contain w-100" src="images/about/about.jpg" alt="about">
+        <h2 class="font-Archivo fontWeight800">
+          We are a creative bold digital agency based in India.
+        </h2>
       </div>
       <div class="col-lg-7">
-        <p class="tittle">About Us</p>
-        <h2 class="fontWeight600 font-Archivo my-4">
-          Welcome to Lorem Ipsum Private Limited
-        </h2>
-        <div class="about_discription">
+        <div class="row align-items-center gap-3">
+          <div class="col-5">
+            <div class="experience rounded-circle  d-flex">
+              <h3 class="fontWeight600 m-auto d-flex">
+                20<span>+</span>
+              </h3>
+            </div>
+          </div>
+          <div class="col-6">
+            <h4 class="heading fontWeight600">20+ YEARS OF EXPERIENCE</h4>
+            <p class="small_heading mt-3">We are dedicated to providing outstanding digital and design services meet the
+              functional and aesthetic.
+            </p>
 
-          <p>
-            Welcome to [Your Company Name], where digital innovation meets marketing excellence. We're not just another
-            digital marketing agency; we're your strategic partner in navigating the ever-evolving digital landscape.
-          </p>
-          <p>
-            At [Your Company Name], we believe in the transformative power of digital marketing to propel businesses
-            forward. With a passion for creativity and a commitment to results, we deliver tailored solutions that drive
-            growth, engagement, and success.
-          </p>
-          <p>Our journey began with a simple yet powerful vision: to empower businesses of all sizes to thrive in the
-            digital age. Founded by a team of industry veterans with a shared dedication to innovation and expertise,
-            [Your Company Name] has grown into a trusted leader in the digital marketing space.</p>
-          <p>
-            At [Your Company Name], innovation is at the heart of everything we do. We stay ahead of the curve,
-            embracing emerging trends and technologies to keep your brand ahead of the competition. Whether you're a
-            startup looking to make waves or an established enterprise seeking to amplify your online presence, we have
-            the tools, the talent, and the tenacity to help you succeed.
-          </p>
+          </div>
         </div>
-
       </div>
 
     </div>
+    <div class="containerFull mt-5  experienceGrid ">
+      <div class="experienceGrid_item">
+        <div class="row justify-content-between">
+
+          <div class="col-7 content">
+            <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
+                class="fw-700 text-dark-gray ls-minus-1px counter">350+</span> very
+              satisfied clients around the worldwide.</span>
+          </div>
+          <div class="col-2 me-0 mt-5px md-mt-0 icon">
+            <i class="bi bi-emoji-smile text-dark-gray icon-medium"></i>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class=" experienceGrid_item">
+        <div class=" row justify-content-between">
+
+          <div class="col-7 content">
+            <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
+                class="counter fw-700 text-dark-gray ls-minus-1px">200+</span> good
+              award winning digital media agency.</span>
+          </div>
+          <div class="col-2 me-0 mt-5px md-mt-0 icon">
+            <i class="bi bi-megaphone text-dark-gray icon-medium"></i>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class=" experienceGrid_item">
+        <div class="row justify-content-between">
+
+          <div class="col-7 content">
+            <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
+                class="counter fw-700 text-dark-gray ls-minus-1px">750+</span>
+              successfully project completed in one year.</span>
+          </div>
+          <div class="col-2 me-0 mt-5px md-mt-0 icon">
+            <i class="bi bi-briefcase text-dark-gray icon-medium"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
   </section>
 
 
@@ -86,26 +132,28 @@
       <div class="row">
         <div class="col-lg-10">
           <div class="leftService">
-            <h3 data-aos="zoom-in-up" class="heading my-3  fontWeight500  aos-init aos-animate text-color1 ">Our
+            <h3 data-aos="zoom-in-up" class="heading my-3  fontWeight700  aos-init aos-animate text-color1 ">Our
               Services
             </h3>
             <h4 data-aos="zoom-in-up"
-              class="large_heading  font-Archivo    headingColor fontHeading mt-3 aos-init aos-animate">
+              class="large_heading  font-Archivo  fontWeight800  headingColor fontHeading mt-3 aos-init aos-animate">
               Find the
               Perfect Solution for Your Business</h4>
           </div>
         </div>
+
       </div>
       <div class="serviceSlider mt-4">
         <div class="itemSlider ">
           <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500">01</p>
+            <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing Strategy
             </h3>
-            <p>
+            <p class="service_discription title text-white ">
               Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
@@ -113,13 +161,14 @@
         </div>
         <div class="itemSlider  ">
           <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500">01</p>
+            <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing Strategy
             </h3>
-            <p>
+            <p class="service_discription title text-white ">
               Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
@@ -127,13 +176,14 @@
         </div>
         <div class="itemSlider">
           <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500">01</p>
+            <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing Strategy
             </h3>
-            <p>
+            <p class="service_discription title text-white ">
               Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
@@ -141,13 +191,14 @@
         </div>
         <div class="itemSlider">
           <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500">01</p>
+            <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing Strategy
             </h3>
-            <p>
+            <p class="service_discription title text-white ">
               Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
@@ -155,13 +206,14 @@
         </div>
         <div class="itemSlider  ">
           <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500">01</p>
+            <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing Strategy
             </h3>
-            <p>
+            <p class="service_discription title text-white ">
               Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
@@ -179,257 +231,528 @@
       <div class="row">
         <div class="col-lg-8 offset-lg-2 aos-init aos-animate" data-aos="zoom-in-up">
           <div class="callToAction text-center">
-            <h4 class="large_heading fontWeight700 font-Archivo">Let’s create a measurable impact on your business.</h4>
+            <h4 class="large_heading  font-Archivo  fontWeight800 text-white">Let’s create a measurable impact on your
+              business.</h4>
 
-            <a href="#" class="header_Btn mt-4">Let's work together<i class="fa fa-arrow-right"></i></a>
+            <a href="#" class="btn_1 mt-4">Let's work together<i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- Why Choose Us -->
-  <section>
+
+  <section class="leftElement">
     <div class="containerFull">
       <div class="row">
-        <div class="col-lg-6">
-          <p class="sections_title ">Why Choose Us</p>
+        <div class="col-lg-5 col-md-5 aos-init aos-animate" data-aos="zoom-in-up">
+          <div class="leftProcess">
+            <img src="images/why.jpg " class="shadow-lg object-fit-cover">
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 aos-init aos-animate" data-aos="zoom-in-up">
+          <div class="rightProcess ps-lg-5">
+            <h5 class=" text-uppercase text_primary procesBorder text-color1 fontWeight700 heading">Why Choose Us</h5>
+            <h4 class="large_heading fontWeight800 text-uppercase font-Archivo mt-1 ">Your Partner in Growth</h4>
+            <!-- <h3 class="heading fontWeight600 mt-3">6-Step Process</h3> -->
+            <ul>
+              <li>We start by discussing your campaign's demands and objectives to gain a clear understanding of your
+                business needs.</li>
+              <li>Our team presents a comprehensive media strategy that aligns with your goals and objectives.</li>
+              <li>We create custom assets and hand them over to our expert team of operators for implementation.</li>
+              <li>Our team activates the media to start your campaign.</li>
+              <li>Throughout the campaign, we perform ongoing optimizations to maximize results and provide regular
+                reports to keep you informed of progress.</li>
+              <li>Once the campaign concludes, we provide a comprehensive summary report to evaluate performance and
+                identify areas for improvement.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- case study -->
+  <section>
 
-          <h3 class="large_heading my-4 font-Archivo">
-            Elevate Your Online Presence with Proven Expertise
-          </h3>
-          <div>
-            <img class="w-75  object-fit-contain" src="images/WhyChoose.jpg" alt="WhyChoose">
+    <div class="containerFull">
+      <div class="row m-0 p-0 ">
+        <div class="row  justify-content-between m-0 p-0">
+
+
+          <div class="gallery col-lg-3">
+            <h1 class=" font-Archivo large_heading fontWeight800">Case Study </h1>
           </div>
 
+          <div class="col-auto   ">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="seo">SEO</button>
+            <button class="btn btn-default filter-button" data-filter="webdesign">Web Design</button>
+            <button class="btn btn-default filter-button" data-filter="marketing">Digital Marketing</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">PPC</button>
+          </div>
         </div>
-        <div class="col-lg-6 whyChoose_content_main">
+        <br />
+        <div class="col-lg-12 mt-5 ">
 
-          <div class=" whyChoose_content">
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webdesign ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webdesign ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webdesign ">
+          <div class="gallery_product_inner w-100 ">
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+          <div class="gallery_product_inner w-100 ">
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+          <div class="gallery_product_inner w-100 ">
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Digital Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- call action -->
+  <section class="callActionBg">
+    <div class="containerFull">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 aos-init aos-animate" data-aos="zoom-in-up">
+          <div class="callToAction text-center">
+            <h4 class="large_heading fontWeight800 font-Archivo text-white">Let's make a tangible difference in your
+              business's outcomes.</h4>
+
+            <a href="#" class="btn_1 mt-4">Talk to our Expert<i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- call action -->
+  <section class="py-5 lightGrey">
+    <div class="containerFull">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-2 text-center aos-init" data-aos="zoom-in-up">
+              <img src="images/logo/logo_black.png" class="w-100 logoIcons">
+            </div>
+            <div class="col-lg-5 col-md-5 aos-init " data-aos="zoom-in-up">
+              <div class="missedCall ">
+                <h4 class="heading text_primary text-uppercase fontWeight700">Give us a call!</h4>
+                <p class="medium_heading mt-2">YOUR SOLUTION SPECIALIST</p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5 aos-init" data-aos="zoom-in-up">
+              <div class="contactRightHome">
+                <h5 class="small_heading fontWeight600"><a class="text-color1 "
+                    href="mailto:info@company.co">info@company.co</a>
+                </h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews -->
+  <section class="bgTestimonial ">
+    <div class="containerFull">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="leftTesimonial">
+            <h4 data-aos="zoom-in-up" class="heading fontWeight700  aos-init aos-animate text-color1">
+              Our Clients
+            </h4>
+            <h3 data-aos="zoom-in-up"
+              class="large_heading  font-Archivo fontWeight800 mt-3 headingColor aos-init aos-animate text-white">
+              What
+              Our Customers Say</h3>
+            <a data-aos="zoom-in-up" href="#" class="btn_1 mt-4 aos-init aos-animate">Become a Client <i
+                class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-8 ">
+          <div class="reviews">
             <div>
-              <div class=" icon ">
-                <i class="fa-solid fa-user-tie p-2 "></i>
+              <div>
+                <div class="innerTestimonial aos-init aos-animate" data-aos="zoom-in-up"
+                  style="width: 100%; display: inline-block;">
+                  <div class="inlineTestimonial">
+                    <div class="iconQoute">
+                      <i class="fa-solid fa-quote-left "></i>
+                    </div>
+                    <div class="iconRightTest">
+                      <p class="small_heading text-white ">It was a pleasure working with Agora. Hoi and her team
+                        genuinely cared about our business, and our campaigns have been extremely successful since
+                        launch!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam optio facere blanditiis cumque
+                        laudantium aliquam, sequi, amet dicta earum praesentium fugit vel saepe totam nemo ipsum,
+                        commodi magnam sapiente et.</p>
+                    </div>
+                  </div>
+                  <div class="customerTest">
+                    <div class="imgCustomer">
+                      <!-- <img src="images/icons/user.png"> -->
+                      <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="cutomerName text-white">
+                      <h5 class="title fontHeading ">Eva Parseghian</h5>
+                      <p class=" mt-2 text-white">Product Management Lead, Korn Ferry Advance</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h3 class="heading font-Archivo my-3">Skilled Professionals</h3>
-              <p class="title"> our team of skilled professionals is dedicated to propelling your business forward in
-                the
-                digital realm
-              </p>
-            </div>
-            <div class="mt-4">
-              <div class=" icon ">
-
-                <i class="fa-solid fa-chess-king p-2"></i>
-              </div>
-              <h3 class="heading font-Archivo my-3">Tailored Strategies</h3>
-              <p class="title">Our skilled professionals don't just offer cookie-cutter solutions. We delve deep into
-                understanding your business objectives, target audience, and industry landscape to craft personalized
-                digital marketing strategies that resonate with your brand.
-              </p>
-            </div>
-            <div class="mt-4">
-              <div class=" icon ">
-
-
-                <i class="fa-solid fa-chart-simple p-2"></i>
-              </div>
-              <h3 class="heading font-Archivo my-3">Data-Driven Approach</h3>
-              <p class="title">Backed by our skilled professionals, our data-driven approach ensures that every decision
-                is rooted in solid analytics and insights. This allows us to fine-tune strategies in real-time,
-                optimizing
-                performance and maximizing your ROI.
-              </p>
-            </div>
-            <div class="mt-4">
-              <div class=" icon ">
-
-
-                <i class="fa-solid fa-chart-simple p-2"></i>
-              </div>
-              <h3 class="heading font-Archivo my-3">Data-Driven Approach</h3>
-              <p class="title">Backed by our skilled professionals, our data-driven approach ensures that every decision
-                is rooted in solid analytics and insights. This allows us to fine-tune strategies in real-time,
-                optimizing
-                performance and maximizing your ROI.
-              </p>
-            </div>
-            <div class="mt-4">
-              <div class=" icon ">
-
-
-                <i class="fa-solid fa-chart-simple p-2"></i>
-              </div>
-              <h3 class="heading font-Archivo my-3">Data-Driven Approach</h3>
-              <p class="title">Backed by our skilled professionals, our data-driven approach ensures that every decision
-                is rooted in solid analytics and insights. This allows us to fine-tune strategies in real-time,
-                optimizing
-                performance and maximizing your ROI.
-              </p>
             </div>
 
-          </div>
-        </div>
 
-
-      </div>
-
-    </div>
-  </section>
-  <section class="ourClient">
-    <div class="containerFull">
-      <div class="row">
-
-
-        <div class="col-lg-6">
-          <p class="title sections_title">Client all around the globe</p>
-          <h3 class="large_heading my-4">
-            Personalized, Data-Driven Tactics
-          </h3>
-          <p class="small_heading">Our analytics experts take a data-driven approach to identify existing sales funnel
-            bottlenecks and tailor
-            strategies to fit YOU. In addition, our rapid experimentation approach allows us to start small and only
-            scale
-            what works. That way, we always put our client’s ROI first.</p>
-
-        </div>
-        <div class="col-lg-6">
-          <div class="Countergrid ">
-
-            <div class="counter px-3 py-5    text-center">
-              <p class="text-color1 fontWeight500">Leads Generated</p>
-              <h3 class="mt-3 large_heading">
-                65K
-              </h3>
-
-            </div>
-            <div class="counter px-3 py-5    text-center">
-              <p class="text-color1 fontWeight500">Leads Generated</p>
-              <h3 class="mt-3 large_heading">
-                65K
-              </h3>
-
-            </div>
-            <div class="counter px-3 py-5    text-center">
-              <p class="text-color1 fontWeight500">Leads Generated</p>
-              <h3 class="mt-3 large_heading">
-                65K
-              </h3>
-
-            </div>
-            <div class="counter px-3 py-5    text-center">
-              <p class="text-color1 fontWeight500">Leads Generated</p>
-              <h3 class="mt-3 large_heading">
-                65K
-              </h3>
-
-            </div>
           </div>
 
         </div>
       </div>
-
     </div>
-
-
   </section>
+  <!-- contact -->
   <section>
     <div class="containerFull">
-
+      <h4 class="large_heading text-center fontWeight800 font-Archivo ">Have a project? We would love to help.</h4>
+      <h5 class="mt-3 text-center small_heading">Ready to work together? Get an estimate from us.</h5>
       <div class="row">
-        <div class="col-lg-6">
-          <h3 class="large_heading">
-            Get in Touch with Us
-          </h3>
-          <p class="title">
-            Feel free to connect with us for any of your needs regarding our services. Our support team is ready to
-            solve any of your issues. Just push a text to us and we will get back to you immediately.
-
-          </p>
-          <p class=" mt-4 fontWeight500 heading">
-            India
-          </p>
-          <hr class="w-75">
-          <div class="contact_item">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>
-
-              Bhubaneswar, Odisha 751024
-            </p>
-          </div>
-          <div class="contact_item">
-            <i class="fa-solid fa-envelope"></i>
-            <p>
-
-              company@gmail.com
-            </p>
-          </div>
-          <div class="contact_item">
-            <i class="fa-solid fa-phone"></i>
-            <p>
-
-              +91 123467890
-            </p>
-          </div>
-
-        </div>
-        <div class="col-lg-6">
-          <form>
-            <div class="row">
-              <div class="">
-                <div class="">
-                  <!-- <label for="name">
-                    Name</label> -->
-                  <div class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
-                    </span>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" />
-                  </div>
+        <div class="col-lg-10 offset-lg-1">
+          <div class="formBlock position-relative">
+            <h3 class="sub_heading fontKanit">Hello, POV MEDIA. team!</h3>
+            <div class="row mt-lg-5 mt-4">
+              <div class="col-lg-6">
+                <div class="itemForm">
+                  <label class="small_heading fontWeight500">My name is</label>
+                  <input type="text" name="name" class="name" placeholder="Your Name">
                 </div>
-                <div class="form-group mt-3">
-                  <!-- <label for="email">
-                    Email Address</label> -->
-                  <div class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                    </span>
-                    <input type="email" class="form-control" id="email" placeholder="Email Address"
-                      required="required" />
-                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="itemForm">
+                  <label class="small_heading fontWeight500">From</label>
+                  <input type="text" name="from" class="from" placeholder="Website or Company Name">
                 </div>
-                <div class="form-group mt-3">
-                  <!-- <label for="subject">
-                    Mobile No.</label> -->
-                  <div class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
-                    </span>
-                    <input type="phone" class="form-control" id="phone" placeholder="Phone No." required="required" />
+              </div>
+              <div class="col-lg-12 mt-4">
+                <div class="itemForm d-flex">
+                  <label class="small_heading fontWeight500">I’d like to discuss</label>
+                  <div class="rightCheck ms-lg-3">
+                    <div class="checkBox">
+                      <ul>
+                        <li>
+                          <input type="checkbox" name="" id="brand">
+                          <label for="brand">Brand Content &amp; Design</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" name="" id="smm">
+                          <label for="smm">Social Media Management</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" name="" id="strategy">
+                          <label for="strategy">Advertising Strategy &amp; Counsel</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" name="" id="pm">
+                          <label for="pm">Permformance Marketing</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" name="" id="web">
+                          <label for="web">Website Designing &amp; Developement</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" name="" id="cms">
+                          <label for="cms">Content Management System</label>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="mt-3">
-                <div class="form-group">
-                  <!-- <label for="name">
-                    Message</label> -->
-                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                    placeholder="Message"></textarea>
+              <div class="col-lg-12 mt-4">
+                <div class="itemForm">
+                  <label class="small_heading fontWeight500">Project idea &amp; design brief.</label>
+                  <textarea class="message" name="message" placeholder="Pitch Your Project Idea "></textarea>
                 </div>
               </div>
-              <div class="form-group mt-3">
-
-                <div class="col-md-12">
-                  <button type="submit" class=" header_Btn border-0 w-100  ">Send Message</button>
+              <div class="col-lg-12 mt-4">
+                <div class="itemForm d-flex">
+                  <label class="small_heading fontWeight500">A budget for this project is</label>
+                  <div class="rightCheck budgetRight ms-lg-3">
+                    <div class="checkBox">
+                      <ul>
+                        <li>
+                          <input type="radio" name="budget" id="budget">
+                          <label for="budget">&lt;50k</label>
+                        </li>
+                        <li>
+                          <input type="radio" name="budget" id="budget2">
+                          <label for="budget2">50k-90k</label>
+                        </li>
+                        <li>
+                          <input type="radio" name="budget" id="budget3">
+                          <label for="budget3">90k-150k</label>
+                        </li>
+                        <li>
+                          <input type="radio" name="budget" id="budget4">
+                          <label for="budget4">&gt;150k</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 mt-4">
+                <div class="itemForm">
+                  <label class="small_heading fontWeight500">Contact me back at</label>
+                  <input type="email" name="email" class="email" placeholder="Your E-mail">
+                </div>
+              </div>
+              <div class="col-lg-12 mt-4">
+                <div class="itemForm text-center">
+                  <button class="btn_1 border-0" aria-selected="true" tabindex="0">Send Message <i
+                      class="fa fa-arrow-right"></i></button>
                 </div>
               </div>
             </div>
-          </form>
+            <div class="cirlceLeft"></div>
+            <div class="cirlceLeft2"></div>
+            <div class="cirlceLeft3"></div>
+            <div class="cirlceLeft4"></div>
+          </div>
         </div>
-
       </div>
-
-
     </div>
+  </section>
 
+  <!-- client slider -->'
+  <section class="overflow-hidden ">
 
-
-
+    <div class="maqrqueeReverse">
+      <div class="row ">
+        <div class="col-lg-2">
+          <div class="itemReview">
+            <img src="images/clients/client1.svg">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="itemReview">
+            <img src="images/clients/client2.svg">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="itemReview">
+            <img src="images/clients/client3.svg">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="itemReview">
+            <img src="images/clients/client4.svg">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="itemReview">
+            <img src="images/clients/client1.svg">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="itemReview">
+            <img src="images/clients/client2.svg">
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <?php include 'include/footer.php'; ?>

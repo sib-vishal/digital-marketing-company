@@ -1,40 +1,34 @@
 <header class="header stricky ">
-	<!-- <div class="topHeader">
-		<div class="containerFull">
-			<p class="text-center"><a href="#">Get the best of style and sound with <strong>Airdopes 311 PRO!</strong> Buy this <strong>newly launched</strong> earbud at <strong>₹1,199</strong>. Shop NOW!</a></p>
-		</div>
-	</div> -->
-
-
-	<div class="containerFull ">
+	<div class="containerFull py-2 ">
 
 		<div class="header_main ">
-			<div class="header_logo">
+			<div class="header_logo d-flex">
 				<picture>
-					<source srcset="images/logo/logo_white.png" type="image/webp" />
+					<source srcset="images/logo/logo_black.png" type="image/webp" />
 					<img src="images/logo/logo_black.png">
 				</picture>
-			</div>
-			<div class="navLinks">
-				<ul>
-					<li><a href="">Home </a></li>
-					<li><a href="">Services</a>
-						<ul>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem, ipsum.</a></li>
-							<li><a href="#">Lorem, ipsum dolor.</a></li>
-							<li><a href="#">Lorem, ipsum.</a></li>
-						</ul>
-					</li>
-					<li><a href="">PortFolio</a></li>
-					<li><a href="">Case Studies</a></li>
-					<li><a href="">About Us</a></li>
-					<li><a href="">Our Clients</a></li>
-					<li><a href="">Contact Us</a></li>
-				</ul>
+				<div class="navLinks">
+					<ul>
+						<li><a href="">About Us</a></li>
+
+						<li><a href="">Services</a>
+							<ul>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Lorem, ipsum.</a></li>
+								<li><a href="#">Lorem, ipsum dolor.</a></li>
+								<li><a href="#">Lorem, ipsum.</a></li>
+							</ul>
+						</li>
+						<li><a href="">Portfolio</a></li>
+						<li><a href="">Case Studies</a></li>
+
+						<li><a href="">Our Clients</a></li>
+
+					</ul>
+				</div>
 			</div>
 			<div class="">
-				<a href="#" class="header_Btn">Let's Discuss <i class="fa fa-arrow-right"></i></a>
+				<a href="#" class="btn_1">Contact Us <i class="fa fa-arrow-right"></i></a>
 			</div>
 		</div>
 	</div>
