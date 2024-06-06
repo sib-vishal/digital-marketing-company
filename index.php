@@ -162,7 +162,7 @@
       </div>
       <div class="serviceSlider mt-4">
         <div class="itemSlider  ">
-          <div class="itemSlider_inner" style="background:url(images/service/services1.jpg);">
+          <div class="itemSlider_inner" style="background-image:url(images/service/services1.jpg);">
             <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing
@@ -176,7 +176,7 @@
           </div>
         </div>
         <div class="itemSlider  ">
-          <div class="itemSlider_inner" style="background:url(images/service/services2.png);">
+          <div class="itemSlider_inner" style="background-image:url(images/service/services2.png);">
             <p class="small_heading fontWeight500 count">02</p>
             <h3 class="heading my-3">
               Social Media Management
@@ -191,7 +191,7 @@
           </div>
         </div>
         <div class="itemSlider">
-          <div class="itemSlider_inner" style="background:url(images/service/services3.png);">
+          <div class="itemSlider_inner" style="background-image:url(images/service/services3.png);">
             <p class="small_heading fontWeight500 count">03</p>
             <h3 class="heading my-3">
               Content Marketing
@@ -213,7 +213,7 @@
     </div>
   </section>
   <!-- call action -->
-  <section class="callActionBg">
+  <section class="callActionBg ">
     <div class="containerFull">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 aos-init aos-animate" data-aos="zoom-in-up">
@@ -282,15 +282,11 @@
         <div class="col-lg-12 mt-5 ">
 
         </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
+        <div class="gallery_product col-lg-3 filter seo ">
           <div class="gallery_product_inner w-100  ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
             </div>
-
-
-
-
             <div class="p-3  text-white">
               <h4>
                 Digital Marketing
@@ -305,13 +301,11 @@
             </div>
           </div>
         </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ppc ">
+        <div class="gallery_product col-lg-3 filter ppc ">
           <div class="gallery_product_inner w-100 ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
             </div>
-
-
             <div class="p-3  text-white">
               <h4>
                 Social Media Marketing
@@ -326,7 +320,28 @@
             </div>
           </div>
         </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ContentMarketing ">
+        <div class="gallery_product col-lg-3 filter ContentMarketing ">
+          <div class="gallery_product_inner w-100 ">
+            <div class="arrowIcon rounded-circle d-flex position-absolute ">
+              <i class="fa fa-arrow-right  text-white "></i>
+            </div>
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Content Marketing
+                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-3 filter ContentMarketing ">
           <div class="gallery_product_inner w-100 ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
@@ -632,41 +647,44 @@
 
   <!-- client slider -->'
   <section class="overflow-hidden ">
+    <div class="containerFull">
 
-    <div class="maqrqueeReverse">
-      <div class="row ">
-        <div class="col-lg-2">
-          <div class="itemReview">
-            <img src="images/clients/client (1).png">
+      <div class="">
+        <div class=" clients">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (1).png">
+            </div>
           </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="itemReview">
-            <img src="images/clients/client (2).png">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (2).png">
+            </div>
           </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="itemReview">
-            <img src="images/clients/client (3).png">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (3).png">
+            </div>
           </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="itemReview">
-            <img src="images/clients/client (4).png">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (4).png">
+            </div>
           </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="itemReview">
-            <img src="images/clients/client (5).png">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (5).png">
+            </div>
           </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="itemReview">
-            <img src="images/clients/client (6).png">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (6).png">
+            </div>
           </div>
         </div>
       </div>
     </div>
+
   </section>
 
   <?php include 'include/footer.php'; ?>

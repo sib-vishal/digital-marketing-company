@@ -215,7 +215,7 @@ $(".reviews").slick({
     },
   ],
 });
-$(".sliderBlog").slick({
+$(".clients").slick({
   dots: false,
   infinite: true,
   speed: 500,
@@ -227,7 +227,7 @@ $(".sliderBlog").slick({
   nextArrow:
     "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
   slidesToScroll: 1,
-  slidesToShow: 4,
+  slidesToShow: 5,
   responsive: [
     {
       breakpoint: 1024,

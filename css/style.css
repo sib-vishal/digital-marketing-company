@@ -182,10 +182,10 @@ section {
   align-items: center;
 }
 .navLinks ul li a {
-  font-size: 16px;
+  font-size: 18px;
   color: #000;
   font-family: "Archivo", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   padding: 25px 12px;
   display: inline-block;
   &:hover {
@@ -264,7 +264,7 @@ section {
 }
 .footer_inner {
   display: grid;
-  grid-template-columns: 1.5fr .8fr .5fr .8fr;
+  grid-template-columns: 1.5fr 0.8fr 0.5fr 0.8fr;
   /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
   gap: 20px;
 }
@@ -275,7 +275,7 @@ section {
   color: #999;
   font-size: 16px;
 }
-.contact_link{
+.contact_link {
   color: #999;
 }
 
@@ -325,7 +325,7 @@ section {
     }
   }
 }
-.footer_contact a{
+.footer_contact a {
   color: white;
 }
 .copyRight {
@@ -344,10 +344,16 @@ section {
 }
 
 /* hero section */
-.banner_content_first {
-  background: url(../images/banner/herobg.png);
-  background-size: cover;
+.banner_content {
+  background-image: url(../images/banner/banner.jpg);
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_content_first {
+  /* background: url(../images/banner/herobg.png); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 
   & div {
     margin-top: 45px;
@@ -395,9 +401,9 @@ section {
   display: flex;
   align-items: center;
 }
-.banner_video_main {
+/* .banner_video_main {
   background-color: #4c12aa65;
-}
+} */
 
 .banner_video {
   content: "";
@@ -477,7 +483,6 @@ section {
   margin: 10px 10px;
   padding: 15px;
   background-blend-mode: multiply;
-  /* background: url(../images/service/cardbg.jpg); */
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 2px -1px 16px #eee;
@@ -526,6 +531,7 @@ section {
   background: url(../images/action.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  /* padding: 20px; */
   position: relative;
   z-index: 1;
 }
@@ -567,6 +573,9 @@ section {
   height: 100%;
   background: var(--primary-color);
   z-index: -1;
+}
+.leftProcess {
+  height: 100%;
 }
 .leftProcess img {
   width: 100%;
@@ -776,7 +785,7 @@ section {
   /* border: 1px solid red; */
   & img {
     aspect-ratio: 4/2;
-    width: 100%;
+    width: 80%;
     object-fit: contain;
   }
 }
@@ -799,6 +808,9 @@ section {
   height: 100%;
   z-index: -1;
   background: rgba(0, 0, 0, 0.8);
+}
+.leftTesimonial .heading {
+  color: #b7a0dd;
 }
 /* .bgTestimonial {
   background: #ececec;
@@ -950,7 +962,7 @@ section {
 }
 
 .gallery_product_inner_discription {
-  margin-bottom: -120px;
+  margin-bottom: -190px;
   transition: all 0.3s ease-in-out;
 }
 .gallery_product:hover {

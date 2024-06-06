@@ -7,25 +7,26 @@
 					<source srcset="images/logo/logo_black.png" type="image/webp" />
 					<img src="images/logo/logo_black.png">
 				</picture>
-				<div class="navLinks">
-					<ul>
-						<li><a href="">About Us</a></li>
 
-						<li><a href="">Services</a>
-							<ul>
-								<li><a href="#">Lorem</a></li>
-								<li><a href="#">Lorem, ipsum.</a></li>
-								<li><a href="#">Lorem, ipsum dolor.</a></li>
-								<li><a href="#">Lorem, ipsum.</a></li>
-							</ul>
-						</li>
-						<li><a href="">Portfolio</a></li>
-						<li><a href="">Case Studies</a></li>
+			</div>
+			<div class="navLinks">
+				<ul>
+					<li><a href="">About Us</a></li>
 
-						<li><a href="">Our Clients</a></li>
+					<li><a href="">Services</a>
+						<ul>
+							<li><a href="#">Lorem</a></li>
+							<li><a href="#">Lorem, ipsum.</a></li>
+							<li><a href="#">Lorem, ipsum dolor.</a></li>
+							<li><a href="#">Lorem, ipsum.</a></li>
+						</ul>
+					</li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Case Studies</a></li>
 
-					</ul>
-				</div>
+					<li><a href="">Our Clients</a></li>
+
+				</ul>
 			</div>
 			<div class="">
 				<a href="#" class="btn_1">Contact Us <i class="fa fa-arrow-right"></i></a>
@@ -88,100 +89,7 @@
 		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>
 	<div class="offcanvas-body">
-		<!-- <div class="loginHeader">
-		<p>Sign in to Redeem boAt reward points on this order</p>
-		<a href="javascript:void(0);" class="signLink loginForm">Sign in Now</a>
-	</div>
-	<div class="cartValue">
-		<div class="middleCart">
-			<div class="itemMiniCart align-items-end">
-				<div class="leftMiniCartImg">
-					<picture>
-				<source srcset="images/products/watch/smartwatches-small.webp" type="image/webp"/>
-				<img src="images/products/watch/smartwatches-small.webp">
-				 </picture>
-				</div>
-				<div class="miniCartCenter">
-					<h4 class="title fontHeading fontWeight700">Wave Call Sigma 3</h4>
-					<p class="title fontHeading fontWeight700 mt-2">₹ 1,299</p>
-					<div class="tagColor mt-2">
-						<p>Active Black</p>
-					</div>
-				</div>
-				<div class="rightMiniCart">
-					<div class="qtyMiniCart">
-						<button class="minus"><i class="fa fa-minus"></i></button>
-						<input type="tel" name="" value="01">
-						<button class="plus"><i class="fa fa-plus"></i></button>
-					</div>
-				</div>
-			</div>
-			<div class="itemMiniCart align-items-end">
-				<div class="leftMiniCartImg">
-					<picture>
-				<source srcset="images/products/watch/smartwatches-small.webp" type="image/webp"/>
-				<img src="images/products/watch/smartwatches-small.webp">
-				 </picture>
-				</div>
-				<div class="miniCartCenter">
-					<h4 class="title fontHeading fontWeight700">Wave Call Sigma 3</h4>
-					<p class="title fontHeading fontWeight700 mt-2">₹ 1,299</p>
-					<div class="tagColor mt-2">
-						<p>Active Black</p>
-					</div>
-				</div>
-				<div class="rightMiniCart">
-					<div class="qtyMiniCart">
-						<button class="minus"><i class="fa fa-minus"></i></button>
-						<input type="tel" name="" value="01">
-						<button class="plus"><i class="fa fa-plus"></i></button>
-					</div>
-				</div>
-			</div>
-			<div class="itemMiniCart align-items-end">
-				<div class="leftMiniCartImg">
-					<picture>
-				<source srcset="images/products/watch/smartwatches-small.webp" type="image/webp"/>
-				<img src="images/products/watch/smartwatches-small.webp">
-				 </picture>
-				</div>
-				<div class="miniCartCenter">
-					<h4 class="title fontHeading fontWeight700">Wave Call Sigma 3</h4>
-					<p class="title fontHeading fontWeight700 mt-2">₹ 1,299</p>
-					<div class="tagColor mt-2">
-						<p>Active Black</p>
-					</div>
-				</div>
-				<div class="rightMiniCart">
-					<div class="qtyMiniCart">
-						<button class="minus"><i class="fa fa-minus"></i></button>
-						<input type="tel" name="" value="01">
-						<button class="plus"><i class="fa fa-plus"></i></button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footerMinCart">
-			<div class="leftFooterMini">
-				<h5 class="small_heading fontHeading fontWeight700">₹ 3,547</h5>
-				<p>Inclusive of all taxes</p>
-			</div>
-			<div class="rightMiniCartFooter">
-				<a href="#" class="btnSecondary">Confirm Order</a>
-			</div>
-		</div>
-	  </div> -->
-		<!-- when cart is empty -->
-		<!-- <div class="emptyCart">
-		  <div class="cartIconMin">
-			  <picture>
-				  <source srcset="images/icons/shopping-bag.webp" type="image/webp"/>
-				  <img src="images/icons/shopping-bag.png"/>
-			  </picture>
-		  </div>
-		  <h4 class="sub_heading fontHeading fontWeight700">Your cart is feeling lonely</h4>
-		  <a href="#" class="btnSecondary mt-3">Start Shopping</a>
-	  </div> -->
+
 	</div>
 </div>
 </div>
