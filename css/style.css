@@ -263,8 +263,8 @@ section {
   background-color: #111;
 }
 .footer_inner {
-  display: grid;
-  grid-template-columns: 1.5fr 0.8fr 0.5fr 0.8fr;
+  /* display: grid;
+  grid-template-columns: 1.5fr 0.8fr 0.5fr 0.8fr; */
   /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
   gap: 20px;
 }
@@ -303,22 +303,23 @@ section {
       padding: 5px 0;
       & a {
         position: relative;
-        color: #999;
-        padding-left: 12px;
+        color: #fff;
+        font-size: 18px;
+        padding-left: 18px;
         &::after {
           content: "\f105";
           position: absolute;
-          top: 5px;
+          top: 0px;
           left: 0px;
-          color: #999;
-          font-size: 11px;
+          color: #fff;
+          font-size: 18px;
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
         }
         &:hover {
-          color: #fff;
+          color: #b7a0dd;
           &::after {
-            color: white;
+            color: #b7a0dd;
           }
         }
       }
