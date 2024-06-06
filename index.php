@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>Digital Marketing Company</title>
+  <title>Social Media Marketing Agency</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <?php include 'include/head-links.php'; ?>
@@ -39,7 +39,7 @@
         <div class="col-lg-6 position-relative overflow-hidden banner_video_main ">
 
           <video class="banner_video " loop="" autoplay="" muted="" playsinline="">
-            <source src="https://marketingexperts.in/projects/agora-digital/images/banner/banner.mp4" type="video/mp4">
+            <source src="images/banner/banner.mp4" type="video/mp4">
           </video>
 
         </div>
@@ -83,11 +83,27 @@
 
           <div class="col-7 content">
             <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
-                class="fw-700 text-dark-gray ls-minus-1px counter">350+</span> very
+                class="fw-700 text-dark-gray ls-minus-1px counter counter-value" data-count="30">30+</span>
+              <br> Very
               satisfied clients around the worldwide.</span>
           </div>
           <div class="col-2 me-0 mt-5px md-mt-0 icon">
             <i class="bi bi-emoji-smile text-dark-gray icon-medium"></i>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class=" experienceGrid_item">
+        <div class="row justify-content-between">
+
+          <div class="col-8 content">
+            <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
+                class="counter fw-700 text-dark-gray ls-minus-1px counter counter-value" data-count="50">50+</span>
+              <br> Successfully project completed in one year.</span>
+          </div>
+          <div class="col-2 me-0 mt-5px md-mt-0 icon">
+            <i class="bi bi-briefcase text-dark-gray icon-medium"></i>
           </div>
         </div>
       </div>
@@ -97,8 +113,8 @@
 
           <div class="col-7 content">
             <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
-                class="counter fw-700 text-dark-gray ls-minus-1px">200+</span> good
-              award winning digital media agency.</span>
+                class="counter fw-700 text-dark-gray ls-minus-1px counter counter-value" data-count="25">25+</span>
+              <br> Impactful Campaigns Delivered by Us.</span>
           </div>
           <div class="col-2 me-0 mt-5px md-mt-0 icon">
             <i class="bi bi-megaphone text-dark-gray icon-medium"></i>
@@ -107,15 +123,16 @@
       </div>
       <!--  -->
       <div class=" experienceGrid_item">
-        <div class="row justify-content-between">
+        <div class=" row justify-content-between">
 
           <div class="col-7 content">
             <span class="small_heading fs-18 w-80 sm-w-90 d-block"><span
-                class="counter fw-700 text-dark-gray ls-minus-1px">750+</span>
-              successfully project completed in one year.</span>
+                class="counter fw-700 text-dark-gray ls-minus-1px counter counter-value" data-count="10">10+</span><br>
+              Leading the Way Across Multiple Industries.</span>
           </div>
           <div class="col-2 me-0 mt-5px md-mt-0 icon">
-            <i class="bi bi-briefcase text-dark-gray icon-medium"></i>
+            <i class="fa-solid fa-building text-dark-gray icon-medium"></i>
+
           </div>
         </div>
       </div>
@@ -126,7 +143,7 @@
   </section>
 
 
-  <!-- services -->
+  <!-- services section -->
   <section class="services">
     <div class="containerFull">
       <div class="row">
@@ -144,81 +161,51 @@
 
       </div>
       <div class="serviceSlider mt-4">
-        <div class="itemSlider ">
-          <div class="itemSlider_inner">
+        <div class="itemSlider  ">
+          <div class="itemSlider_inner" style="background:url(images/service/services1.jpg);">
             <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
-              Digital Marketing Strategy
+              Digital Marketing
             </h3>
             <p class="service_discription title text-white ">
-              Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
+              Ignite your online presence with our powerhouse digital marketing solutions. Dominate the digital realm,
+              boost your brand, and reach new heights with POV Media’s expert strategies.
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
           </div>
         </div>
         <div class="itemSlider  ">
-          <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500 count">01</p>
+          <div class="itemSlider_inner" style="background:url(images/service/services2.png);">
+            <p class="small_heading fontWeight500 count">02</p>
             <h3 class="heading my-3">
-              Digital Marketing Strategy
+              Social Media Management
             </h3>
             <p class="service_discription title text-white ">
-              Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
+              Unleash the power of social media and captivate your audience with our stellar social media management
+              services. From content creation to community engagement, we’ll help your brand shine, trend, and soar high
+              in the social sphere.
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
           </div>
         </div>
         <div class="itemSlider">
-          <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500 count">01</p>
+          <div class="itemSlider_inner" style="background:url(images/service/services3.png);">
+            <p class="small_heading fontWeight500 count">03</p>
             <h3 class="heading my-3">
-              Digital Marketing Strategy
+              Content Marketing
             </h3>
             <p class="service_discription title text-white ">
-              Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
+              Unleash the power of words and watch your brand soar with our extraordinary content marketing services.
+              From captivating articles to engaging videos, we’ll fuel your online presence and leave a lasting
+              impression.
             </p>
             <a href="" class="linkBtn mt-3">Learn More</a>
 
           </div>
         </div>
-        <div class="itemSlider">
-          <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500 count">01</p>
-            <h3 class="heading my-3">
-              Digital Marketing Strategy
-            </h3>
-            <p class="service_discription title text-white ">
-              Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
-            </p>
-            <a href="" class="linkBtn mt-3">Learn More</a>
 
-          </div>
-        </div>
-        <div class="itemSlider  ">
-          <div class="itemSlider_inner">
-            <p class="small_heading fontWeight500 count">01</p>
-            <h3 class="heading my-3">
-              Digital Marketing Strategy
-            </h3>
-            <p class="service_discription title text-white ">
-              Identify target audiences, competitors, channels, and metrics to develop a comprehensive marketing plan.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
-            </p>
-            <a href="" class="linkBtn mt-3">Learn More</a>
-
-          </div>
-        </div>
 
       </div>
     </div>
@@ -234,7 +221,7 @@
             <h4 class="large_heading  font-Archivo  fontWeight800 text-white">Let’s create a measurable impact on your
               business.</h4>
 
-            <a href="#" class="btn_1 mt-4">Let's work together<i class="fa fa-arrow-right"></i></a>
+            <a href="#" class="btn_1 mt-4">Let's work together <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -284,11 +271,11 @@
           </div>
 
           <div class="col-auto   ">
-            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button active1" data-filter="all">All</button>
             <button class="btn btn-default filter-button" data-filter="seo">SEO</button>
-            <button class="btn btn-default filter-button" data-filter="webdesign">Web Design</button>
+            <button class="btn btn-default filter-button" data-filter="ContentMarketing">Content Marketing</button>
             <button class="btn btn-default filter-button" data-filter="marketing">Digital Marketing</button>
-            <button class="btn btn-default filter-button" data-filter="irrigation">PPC</button>
+            <!-- <button class="btn btn-default filter-button" data-filter="ppc">PPC</button> -->
           </div>
         </div>
         <br />
@@ -296,12 +283,38 @@
 
         </div>
         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
-          <div class="gallery_product_inner w-100 ">
+          <div class="gallery_product_inner w-100  ">
+            <div class="arrowIcon rounded-circle d-flex position-absolute ">
+              <i class="fa fa-arrow-right  text-white "></i>
+            </div>
+
+
 
 
             <div class="p-3  text-white">
               <h4>
                 Digital Marketing
+
+              </h4>
+
+              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Commodi, expedita deleniti
+                repudiandae enim
+                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
+                aliquam suscipit consectetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ppc ">
+          <div class="gallery_product_inner w-100 ">
+            <div class="arrowIcon rounded-circle d-flex position-absolute ">
+              <i class="fa fa-arrow-right  text-white "></i>
+            </div>
+
+
+            <div class="p-3  text-white">
+              <h4>
+                Social Media Marketing
                 <!-- <i class="fa fa-arrow-right  text-white "></i> -->
               </h4>
 
@@ -313,135 +326,16 @@
             </div>
           </div>
         </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webdesign ">
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ContentMarketing ">
           <div class="gallery_product_inner w-100 ">
-
-
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
+            <div class="arrowIcon rounded-circle d-flex position-absolute ">
+              <i class="fa fa-arrow-right  text-white "></i>
             </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webdesign ">
-          <div class="gallery_product_inner w-100 ">
 
 
             <div class="p-3  text-white">
               <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webdesign ">
-          <div class="gallery_product_inner w-100 ">
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
-          <div class="gallery_product_inner w-100 ">
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
-          <div class="gallery_product_inner w-100 ">
-
-
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
-          <div class="gallery_product_inner w-100 ">
-
-
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
-          <div class="gallery_product_inner w-100 ">
-
-
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
-                <!-- <i class="fa fa-arrow-right  text-white "></i> -->
-              </h4>
-
-              <p class="text-white gallery_product_inner_discription mt-4 ">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Commodi, expedita deleniti
-                repudiandae enim
-                quos consequuntur eligendi, iste minus nam natus illum magnam adipisci. Dolorum, cum quae voluptatibus
-                aliquam suscipit consectetur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter seo ">
-          <div class="gallery_product_inner w-100 ">
-
-
-            <div class="p-3  text-white">
-              <h4>
-                Digital Marketing
+                Content Marketing
                 <!-- <i class="fa fa-arrow-right  text-white "></i> -->
               </h4>
 
@@ -455,49 +349,9 @@
         </div>
 
 
-        <!-- <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
 
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
 
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
 
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div>
-
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-          <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-        </div> -->
       </div>
     </div>
   </section>
@@ -507,10 +361,9 @@
       <div class="row">
         <div class="col-lg-8 offset-lg-2 aos-init aos-animate" data-aos="zoom-in-up">
           <div class="callToAction text-center">
-            <h4 class="large_heading fontWeight800 font-Archivo text-white">Let's make a tangible difference in your
-              business's outcomes.</h4>
+            <h4 class="large_heading fontWeight800 font-Archivo text-white">Seeing things from a new perspective.​</h4>
 
-            <a href="#" class="btn_1 mt-4">Talk to our Expert<i class="fa fa-arrow-right"></i></a>
+            <a href="#" class="btn_1 mt-4">Talk to our Expert <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -529,13 +382,14 @@
             <div class="col-lg-5 col-md-5 aos-init " data-aos="zoom-in-up">
               <div class="missedCall ">
                 <h4 class="heading text_primary text-uppercase fontWeight700">Give us a call!</h4>
-                <p class="medium_heading mt-2">YOUR SOLUTION SPECIALIST</p>
+                <a href="tel:+91-9769245614"
+                  class="medium_heading mt-2 d-block text-color1 fontWeight600">+91-9769245614</a>
               </div>
             </div>
             <div class="col-lg-5 col-md-5 aos-init" data-aos="zoom-in-up">
               <div class="contactRightHome">
                 <h5 class="small_heading fontWeight600"><a class="text-color1 "
-                    href="mailto:info@company.co">info@company.co</a>
+                    href="mailto:contact@povmedia.in">contact@povmedia.in</a>
                 </h5>
               </div>
             </div>
@@ -574,7 +428,67 @@
                       <i class="fa-solid fa-quote-left "></i>
                     </div>
                     <div class="iconRightTest">
-                      <p class="small_heading text-white ">It was a pleasure working with Agora. Hoi and her team
+                      <p class="small_heading text-white ">It was a pleasure working with Pov Media. He and her team
+                        genuinely cared about our business, and our campaigns have been extremely successful since
+                        launch!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam optio facere blanditiis cumque
+                        laudantium aliquam, sequi, amet dicta earum praesentium fugit vel saepe totam nemo ipsum,
+                        commodi magnam sapiente et.</p>
+                    </div>
+                  </div>
+                  <div class="customerTest">
+                    <div class="imgCustomer">
+                      <!-- <img src="images/icons/user.png"> -->
+                      <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="cutomerName text-white">
+                      <h5 class="title fontHeading ">Eva Parseghian</h5>
+                      <p class=" mt-2 text-white">Product Management Lead, Korn Ferry Advance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="innerTestimonial aos-init aos-animate" data-aos="zoom-in-up"
+                  style="width: 100%; display: inline-block;">
+                  <div class="inlineTestimonial">
+                    <div class="iconQoute">
+                      <i class="fa-solid fa-quote-left "></i>
+                    </div>
+                    <div class="iconRightTest">
+                      <p class="small_heading text-white ">It was a pleasure working with Pov Media. He and her team
+                        genuinely cared about our business, and our campaigns have been extremely successful since
+                        launch!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam optio facere blanditiis cumque
+                        laudantium aliquam, sequi, amet dicta earum praesentium fugit vel saepe totam nemo ipsum,
+                        commodi magnam sapiente et.</p>
+                    </div>
+                  </div>
+                  <div class="customerTest">
+                    <div class="imgCustomer">
+                      <!-- <img src="images/icons/user.png"> -->
+                      <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="cutomerName text-white">
+                      <h5 class="title fontHeading ">Eva Parseghian</h5>
+                      <p class=" mt-2 text-white">Product Management Lead, Korn Ferry Advance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="innerTestimonial aos-init aos-animate" data-aos="zoom-in-up"
+                  style="width: 100%; display: inline-block;">
+                  <div class="inlineTestimonial">
+                    <div class="iconQoute">
+                      <i class="fa-solid fa-quote-left "></i>
+                    </div>
+                    <div class="iconRightTest">
+                      <p class="small_heading text-white ">It was a pleasure working with Pov Media. He and her team
                         genuinely cared about our business, and our campaigns have been extremely successful since
                         launch!
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam optio facere blanditiis cumque
@@ -723,32 +637,32 @@
       <div class="row ">
         <div class="col-lg-2">
           <div class="itemReview">
-            <img src="images/clients/client1.svg">
+            <img src="images/clients/client (1).png">
           </div>
         </div>
         <div class="col-lg-2">
           <div class="itemReview">
-            <img src="images/clients/client2.svg">
+            <img src="images/clients/client (2).png">
           </div>
         </div>
         <div class="col-lg-2">
           <div class="itemReview">
-            <img src="images/clients/client3.svg">
+            <img src="images/clients/client (3).png">
           </div>
         </div>
         <div class="col-lg-2">
           <div class="itemReview">
-            <img src="images/clients/client4.svg">
+            <img src="images/clients/client (4).png">
           </div>
         </div>
         <div class="col-lg-2">
           <div class="itemReview">
-            <img src="images/clients/client1.svg">
+            <img src="images/clients/client (5).png">
           </div>
         </div>
         <div class="col-lg-2">
           <div class="itemReview">
-            <img src="images/clients/client2.svg">
+            <img src="images/clients/client (6).png">
           </div>
         </div>
       </div>

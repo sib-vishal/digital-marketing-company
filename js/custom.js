@@ -180,7 +180,7 @@ $(".reviews").slick({
   speed: 500,
   autoplay: true,
   autoplaySpeed: 2000,
-  arrows: true,
+  arrows: false,
   prevArrow:
     "<button type='button' class='slick-prev pull-left'><i class='bi bi-chevron-left'></i></button>",
   nextArrow:
@@ -324,16 +324,18 @@ $(function () {
 });
 
 // case study js
+
 $(document).ready(function () {
   $(".filter-button").click(function () {
+    $(".filter-button").removeClass("active1");
+
+    $(this).addClass("active1");
+
     var value = $(this).attr("data-filter");
 
     if (value == "all") {
-      //$('.filter').removeClass('hidden');
       $(".filter").show("1000");
     } else {
-      //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-      //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
       $(".filter")
         .not("." + value)
         .hide("3000");
@@ -342,9 +344,38 @@ $(document).ready(function () {
         .show("3000");
     }
   });
+});
 
-  if ($(".filter-button").removeClass("active")) {
-    $(this).removeClass("active");
-  }
-  $(this).addClass("active");
+$(function () {
+  var a = 0;
+  $(window).scroll(function () {
+    if ($(".counter")[0]) {
+      var oTop = $(".counter").offset().top - window.innerHeight;
+      if (a == 0 && $(window).scrollTop() > oTop) {
+        $(".counter-value").each(function () {
+          var $this = $(this),
+            countTo = $this.attr("data-count");
+          $({
+            countNum: $this.text(),
+          }).animate(
+            {
+              countNum: countTo,
+            },
+            {
+              duration: 1000,
+              easing: "swing",
+              step: function () {
+                $this.text(Math.floor(this.countNum) + "+");
+              },
+              complete: function () {
+                $this.text(this.countNum + "+");
+                //alert('finished');
+              },
+            }
+          );
+        });
+        a = 1;
+      }
+    }
+  });
 });
