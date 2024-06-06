@@ -1,6 +1,6 @@
 <footer class="footer ">
 	<div class="containerFull text-white">
-		<div class="row">
+		<div class="row pt-3">
 			<div class="col-12 col-xl-3 col-lg-12 col-md-6 d-flex flex-column lg-mb-30px sm-mb-20px order-md-1">
 				<div class="footer_logo">
 					<picture>
