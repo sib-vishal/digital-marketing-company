@@ -24,14 +24,14 @@
     <?php include 'include/header.php'; ?>
 
 
-    <div class="">
+    <div class="banner_content_main">
       <div class="row banner_content  m-0">
         <div class="col-lg-6  banner_content_first ">
           <div class="">
             <h4 class="companyName fontWeight800">POV MEDIA</h4>
             <h1 class="fontWeight800  banner_heading font-Archivo">Social Media Marketing Agency</h1>
             <p class="sub_heading">Want to know what it takes to grow your business online? Let us show you.</p>
-            <a href="#" class="btn_1">Let's discuss <i class="fa fa-arrow-right"></i></a>
+            <a href="contact-us.php" class="btn_1">Let's discuss <i class="fa fa-arrow-right"></i></a>
 
           </div>
 
@@ -221,7 +221,7 @@
             <h4 class="large_heading  font-Archivo  fontWeight800 text-white">Let’s create a measurable impact on your
               business.</h4>
 
-            <a href="#" class="btn_1 mt-4">Let's work together <i class="fa fa-arrow-right"></i></a>
+            <a href="contact-us.php" class="btn_1 mt-4">Let's work together <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -378,7 +378,7 @@
           <div class="callToAction text-center">
             <h4 class="large_heading fontWeight800 font-Archivo text-white">Seeing things from a new perspective.​</h4>
 
-            <a href="#" class="btn_1 mt-4">Talk to our Expert <i class="fa fa-arrow-right"></i></a>
+            <a href="contact-us.php" class="btn_1 mt-4">Talk to our Expert <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -428,7 +428,7 @@
               class="large_heading  font-Archivo fontWeight800 mt-3 headingColor aos-init aos-animate text-white">
               What
               Our Customers Say</h3>
-            <a data-aos="zoom-in-up" href="#" class="btn_1 mt-4 aos-init aos-animate">Become a Client <i
+            <a data-aos="zoom-in-up" href="contact-us.php" class="btn_1 mt-4 aos-init aos-animate">Become a Client <i
                 class="fa fa-arrow-right"></i></a>
           </div>
         </div>

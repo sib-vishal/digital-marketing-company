@@ -13,7 +13,7 @@
 				<ul>
 					<li><a href="">About Us</a></li>
 
-					<li><a href="">Services</a>
+					<li><a href="#">Services</a>
 						<ul>
 							<li><a href="#">Lorem</a></li>
 							<li><a href="#">Lorem, ipsum.</a></li>
@@ -29,7 +29,7 @@
 				</ul>
 			</div>
 			<div class="">
-				<a href="#" class="btn_1">Contact Us <i class="fa fa-arrow-right"></i></a>
+				<a href="contact-us.php" class="btn_1">Contact Us <i class="fa fa-arrow-right"></i></a>
 			</div>
 		</div>
 	</div>

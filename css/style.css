@@ -29,6 +29,8 @@ html {
 }
 :root {
   --primary-color: #4d12aa;
+  --primary-color-light: #b7a0dd;
+
   --secondary-color: #000;
 }
 *,
@@ -70,7 +72,7 @@ a:hover {
   box-shadow: none;
 }
 section {
-  padding: 70px 0 40px;
+  padding: 70px 0 70px;
 }
 .inlineHeader {
   display: flex;
@@ -161,7 +163,7 @@ section {
 
 /* header css */
 .header {
-  margin-bottom: -100px;
+  /* margin-bottom: -100px; */
   z-index: 10;
   position: relative;
 }
@@ -345,7 +347,11 @@ section {
 }
 
 /* hero section */
+.banner_content_main {
+  margin-top: -93px;
+}
 .banner_content {
+  padding-top: 45px;
   background-image: url(../images/banner/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -976,6 +982,119 @@ section {
 }
 .gallery_product:hover .gallery_product_inner_discription {
   margin-bottom: 0;
+}
+
+/* contact Page */
+
+.contact {
+  /* padding-top: 100px; */
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+
+  background-image: url(../images/contact/contact-banner.jpg);
+  background-color: #000000ad;
+  background-blend-mode: multiply;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Contact_details h2 {
+  text-wrap: balance;
+}
+
+/* services page  */
+.services-main {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/service/service-banner-2.jpg);
+  background-color: #000000ad;
+  background-blend-mode: multiply;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-main h2,
+.services-list {
+  color: var(--primary-color-light);
+}
+
+.ripple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  animation: ripple 3s linear infinite;
+}
+.ripple::before,
+.ripple::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+  animation: ripple 3s linear infinite 1s;
+}
+.ripple::after {
+  animation: ripple 3s linear infinite 2s;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 8rem rgba(255, 255, 255, 0);
+  }
+}
+
+.services-list li {
+  padding-left: 20px;
+  position: relative;
+}
+.services-list li:after {
+  content: "\f560";
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--primary-color-light);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.dm-services-list li {
+  padding-left: 20px;
+  position: relative;
+}
+.dm-services-list li:after {
+  content: "\f560";
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--primary-color-light);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.services-Carousel img {
+  object-fit: contain;
+  /* margin: 0 -10px; */
+  max-height: 500px;
+}
+.servicebggray {
 }
 
 /* .row .counter:nth-child(1) {
