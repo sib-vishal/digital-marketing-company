@@ -11,14 +11,14 @@
 			</div>
 			<div class="navLinks">
 				<ul>
-					<li><a href="">About Us</a></li>
+					<li><a href="about-us.php">About Us</a></li>
 
 					<li><a href="services.php">Services</a>
 						<ul>
 							<li><a href="digital-marketing.php">Digital Marketing</a></li>
 							<li><a href="social-media-management.php">Social Media Management</a></li>
 							<li><a href="content-marketing.php">Content Marketing</a></li>
-							
+
 						</ul>
 					</li>
 					<li><a href="">Portfolio</a></li>

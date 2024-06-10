@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Services | Pov Media</title>
+    <title>Social Media Management | Pov Media</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <?php include 'include/head-links.php'; ?>
