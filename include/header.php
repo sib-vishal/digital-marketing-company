@@ -13,12 +13,12 @@
 				<ul>
 					<li><a href="">About Us</a></li>
 
-					<li><a href="#">Services</a>
+					<li><a href="services.php">Services</a>
 						<ul>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem, ipsum.</a></li>
-							<li><a href="#">Lorem, ipsum dolor.</a></li>
-							<li><a href="#">Lorem, ipsum.</a></li>
+							<li><a href="digital-marketing.php">Digital Marketing</a></li>
+							<li><a href="social-media-management.php">Social Media Management</a></li>
+							<li><a href="content-marketing.php">Content Marketing</a></li>
+							
 						</ul>
 					</li>
 					<li><a href="">Portfolio</a></li>
