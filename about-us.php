@@ -109,46 +109,52 @@
         </div>
     </section>
     <!-- ************************ -->
-    <section class="pb-0  about_video" style="background-image: url(images/about/demo-digital-agency-02.jpg);">
+    <section class="pb-0  about_section2" style="background-image: url(images/about/demo-digital-agency-02.jpg);">
         <div class="opacity-light bg-dark-gray"></div>
 
-        <div class="containerFull position-relative ">
-            <div class="row justify-content-center mb-6  about_video_inner ">
-                <div class="col-xxl-7 col-xl-10 text-center">
-                    <a href="https://www.youtube.com/watch?v=cfXHhfNy7tU" class="popup-youtube ">
-                        <div class="position-relative z-index-9  bg-black play_icon mx-auto " style="">
-                            <i class="fa-solid fa-play  large_heading text-white"></i>
-                        </div>
-                    </a>
-                    <h2 class="mt-5 text-white ls-minus-2px text-shadow-extra-large highlight-separator-small"
-                        style="">Forward thinking team of designers, copywriters and developers. </h2>
+        <div class="containerFull">
+
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <h4 class="large_heading fontWeight800 font-Archivo text-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestiae.
+    
+                    </h4>
                 </div>
+                <div class="col">
+                    <p class="title text-white">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima, reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam voluptates rerum quam, consequuntur saepe.
+
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima, reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam voluptates rerum quam, consequuntur saepe.
+    
+                    </p>
+                </div>
+    
             </div>
         </div>
-        <div class="blur_bg py-4  mt-5">
-            <div class="container">
+        <div class="blur_bg py-4  ">
+            <div class="containerFull">
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center align-items-center">
 
-                    <div class="col icon-with-text-style-08 md-mb-30px text-center" style="">
-                        <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
-                            <div class="feature-box-icon me-15px">
-                                
-                                <!-- <i class="fa-solid fa-building  text-white icon-medium"></i> -->
-                            </div>
+                    <div class="col  text-center" style="">
+                        <div class="feature-box  d-inline-flex align-middle">
+
                             <div class="feature-box-content">
-                                <span class="alt-font text-white fs-20 lg-fs-18">Trusted company</span>
+                                <span class=" text-white d-flex align-items-center gap-2  "><img class="icon"
+                                        width="35px" src="images/icons/office-building.png" alt=""> Trusted
+                                    company</span>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col icon-with-text-style-08 md-mb-30px text-center" style="">
-                        <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
-                            <div class="feature-box-icon me-15px">
-                                <i class="line-icon-Moustache-Smiley icon-medium text-white"></i>
-                            </div>
+                    <div class="col  text-center" style="">
+                        <div class="feature-box  d-inline-flex align-middle">
+
                             <div class="feature-box-content">
-                                <span class="alt-font text-white fs-20 lg-fs-18">Award winning</span>
+                                <span class=" text-white d-flex align-items-center gap-2 ">
+                                    <img class="icon" width="35px" src="images/icons/award.png" alt="">
+                                    Award winning</span>
                             </div>
                         </div>
                     </div>
@@ -156,23 +162,22 @@
 
                     <div class="col icon-with-text-style-08 xs-mb-30px text-center" style="">
                         <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
-                            <div class="feature-box-icon me-15px">
-                                <i class="line-icon-Management icon-medium text-white"></i>
-                            </div>
+
                             <div class="feature-box-content">
-                                <span class="alt-font text-white fs-20 lg-fs-18">Professional work</span>
+                                <span class=" text-white d-flex align-items-center gap-2">
+                                    <img class="icon" width="35px" src="images/icons/work-team.png" alt="">
+                                    Professional work</span>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col icon-with-text-style-08 text-center" style="">
-                        <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
-                            <div class="feature-box-icon me-15px">
-                                <i class="line-icon-Speach-Bubbles icon-medium text-white"></i>
-                            </div>
+                    <div class="col  text-center" style="">
+                        <div class="feature-box d-inline-flex align-middle">
                             <div class="feature-box-content">
-                                <span class="alt-font text-white fs-20 lg-fs-18">Help any time</span>
+                                <span class="text-white d-flex align-items-center gap-2">
+                                    <img class="icon" width="35px" src="images/icons/support.png" alt="">
+                                    Help any time</span>
                             </div>
                         </div>
                     </div>
@@ -181,262 +186,12 @@
             </div>
         </div>
     </section>
-    <section class=" position-relative">
-
-        <div class="containerFull">
-            <!-- <div class="row"> -->
-            <div class="row">
-
-                <div class="col-lg-6">
-
-                    <h4 class="fontWeight600 heading text-color1">
-                        Digital Marketing
-                    </h4>
-                    <h3 class="large_heading fontWeight800 mt-3 font-Archivo">
-                        Unlocking Digital Horizons: Navigating the Realm of Digital Marketing
-                    </h3>
-                </div>
-                <div class="col-lg-6">
-
-                    <p class="mt-3 title ">Ignite your online presence with our powerhouse digital marketing
-                        solutions.
-                        Dominate the digital
-                        realm, boost your brand, and reach new heights with POV Media’s expert strategies.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure perferendis rem
-                        ipsum
-                        esse nam beatae, nulla omnis, minima inventore quidem et est deserunt maiores labore
-                        adipisci ut
-                        voluptatem quos fugit sed velit, rerum ex. Expedita quos sequi itaque molestias?
-                        Ignite your online presence with our powerhouse digital marketing
-                        solutions.
-
-                    </p>
 
 
-                </div>
-
-            </div>
 
 
-        </div>
 
 
-    </section>
-    <!-- 2 -->
-
-    <section class="bggray">
-        <div class="containerFull ">
-            <div>
-                <h3 class="fontWeight600 heading text-color1">Our Services</h3>
-                <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
-                    Explore Our Comprehensive Range of Services
-                </h4>
-                <p class="mt-3 title">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque accusamus ipsa excepturi rem
-                    quis quaerat! Non eaque animi excepturi error expedita, assumenda laudantium autem, ab esse
-                    reiciendis explicabo facere debitis ex distinctio nulla. Soluta facere provident quaerat
-                    necessitatibus corporis.
-
-                </p>
-
-                <div>
-                    <ul class="d-grid dm-services-list">
-                        <li>
-                            <i class="fas fa-search"></i> Search Engine Optimization (SEO)
-                        </li>
-                        <li>
-                            <i class="fas fa-bullseye"></i> Pay-Per-Click Advertising (PPC)
-                        </li>
-                        <li>
-                            <i class="fas fa-users"></i> Social Media Marketing (SMM)
-                        </li>
-                        <li>
-                            <i class="fas fa-pen"></i> Content Marketing
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope"></i> Email Marketing
-                        </li>
-                        <li>
-                            <i class="fas fa-laptop"></i> Website Design and Development
-                        </li>
-                        <li>
-                            <i class="fas fa-chart-line"></i> Analytics and Reporting
-                        </li>
-                        <li>
-                            <i class="fas fa-lightbulb"></i> Digital Strategy Consultation
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- what we do -->
-    <section class="position-relative">
-        <div class="containerFull whatwedo">
-
-            <div class="row ">
-
-                <div class="col-lg-7 dm_box_main">
-                    <div>
-                        <h3 class="fontWeight600 heading text-color1"> What We Offer!</h3>
-                        <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
-                            Focus on Your Core, Leave Digital Marketing to Us!
-                        </h4>
-
-                    </div>
-                    <div class=" box  mt-4">
-                        <div>
-                            <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
-
-                            <h4 class="mt-4 font-Archivo fontWeight600">
-                                Strategic Planning
-                            </h4>
-                            <p class="mt-3 title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class=" box mt-4 ">
-                        <div>
-                            <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
-
-                            <h4 class="mt-4 font-Archivo fontWeight600">
-                                Strategic Planning
-                            </h4>
-                            <p class="mt-3  title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class=" box mt-4 ">
-                        <div>
-                            <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
-
-                            <h4 class="mt-4 font-Archivo fontWeight600">
-                                Strategic Planning
-                            </h4>
-                            <p class="mt-3 title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class=" box mt-4 ">
-                        <div>
-                            <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
-
-                            <h4 class="mt-4 font-Archivo fontWeight600">
-                                Strategic Planning
-                            </h4>
-                            <p class="mt-3 title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-5 position-relative">
-                    <div class="w-100 service_imgbox  shadow sticky-lg-top z-1 ">
-                        <div class="bg-white service_imgbox_inner ">
-
-                            <img class="w-100  " src="images/service/social-media-market (1).jpg" alt="service">
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-
-        </div>
-        <div class="verticle_bar">
-
-        </div>
-    </section>
-    <!-- *********************** -->
-    <section class="callActionBg">
-        <div class="containerFull">
-            <div class="row text-white">
-                <div class="col-lg-5 md-mb-10px appear anime-child anime-complete">
-                    <h3 class="large_heading font-Archivo fontWeight800 " style="">We want
-                        to bring and business the
-                        digital world.</h3>
-                </div>
-                <div class="col-lg-7 appear anime-child anime-complete">
-                    <div class="row" style="">
-                        <div class="col-md-5">
-                            <div class="text-color3 fontWeight600 heading ">Successfully finished
-                                projects with creativity.</div>
-                        </div>
-                        <div class="col-md-7 last-paragraph-no-margin">
-                            <p class="text-white title">We value each and every human life placed our hands constantly
-                                work towards meeting the
-                                expectations of our customers.</p>
-                        </div>
-                    </div>
-                    <div class="my-4 separator-line-1px border-bottom border-color-extra-medium-gray mt-40px mb-40px sm-mt-30px sm-mb-30px"
-                        style=""></div>
-                    <div class="row" style="">
-                        <div class="col-md-5">
-                            <div class="text-color3 fontWeight600 heading ">Work together for better
-                                branding solutions.</div>
-                        </div>
-                        <div class="col-md-7 last-paragraph-no-margin">
-                            <p class="text-white title">We value each and every human life placed our hands constantly
-                                work towards meeting the
-                                expectations of our customers.</p>
-                        </div>
-                    </div>
-                    <div class=" my-4 separator-line-1px border-bottom border-color-extra-medium-gray mt-40px mb-40px sm-mt-30px sm-mb-30px"
-                        style=""></div>
-                    <div class="row" style="">
-                        <div class="col-md-5">
-                            <div class="text-color3 fontWeight600 heading ">Committed to deliver
-                                unique digital media.</div>
-                        </div>
-                        <div class="col-md-7 last-paragraph-no-margin">
-                            <p class="text-white title">We value each and every human life placed our hands constantly
-                                work towards meeting the
-                                expectations of our customers.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- **************************** -->
     <section class="dm_creative ">
         <div class="containerFull">
@@ -470,8 +225,8 @@
                         sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
                         voluptatum quaerat optio vel repudiandae?</p>
                     <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1">Let's
-                            talk now<i class="fa-regular fa-envelope icon "></i></a>
+                        <a href="#" class="btn_1"><i class="fa-regular fa-envelope icon "></i> &nbsp; Let's
+                            talk now</a>
                         <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
                             &nbsp;+91-9769245614</a>
                     </div>
@@ -481,166 +236,155 @@
         </div>
     </section>
 
-    <!-- faq -->
-    <section class="bggray dm_accordion">
-
-
-        <div class="containerFull ">
-
-            <div class="row">
-                <div class="col-lg-6">
-
-                    <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
-                        <span class="text-color1">
-                            Frequently
-                        </span> Asked Questions
-                    </h4>
-                    <p class="mt-3 title">
-                        Our in-house team of recruitment specialists will nurture your leads all the way through to
-                        completed application.
-                    </p>
-                    <p class="mt-3 title">We as a full service leading digital marketing firm, offers customized
-                        story-based digital
-                        marketing services to build, promote & scale your brand so it can clearly & easily attract your
-                        ideal clients.</p>
-                    <div class="mt-4 ">
-                        <a href="contact-us.php" class="btn_1">Let's discuss <i class="fa fa-arrow-right"></i></a>
-                    </div>
-
-
+    <!-- *************************** -->
+    <section class=" team2 bggray">
+        <div class="containerFull">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8 text-center">
+                    <h3 class="mb-3 fontWeight800  large_heading font-Archivo">Experienced & Professional
+                        Team</h3>
+                    <h4 class="title  ">You can relay on our amazing features list and also our
+                        customer services will be great experience for you without doubt and in no-time</h4>
                 </div>
-                <div class="col-lg-6">
-                    <div class="">
-                        <div class="accordion accordion-flush py-1 " id="accordionFlushExample">
-                            <div class="accordion-item ">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        Accordion Item #1
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                        accordion
-                                        body.</div>
-                                </div>
+            </div>
+            <div class="team2grid mt-5">
+
+                <div class="team2grid_item shadow overflow-hidden">
+
+                    <div class="row no-gutters">
+                        <div class="col-md-12 pro-pic position-relative"
+                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg) no-repeat  top center / cover">
+                            <div class="card-img-overlay">
+                                <ul class="list-inline position-relative text-center">
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="icon-social-behance"></i></a></li>
+                                </ul>
                             </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo">
-                                        Accordion Item #2
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                        accordion
-                                        body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                        Accordion Item #3
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion
-                                        body. Nothing more exciting happening here in terms of content, but just filling
-                                        up the
-                                        space to make it look, at least at first glance, a bit more representative of
-                                        how this
-                                        would
-                                        look in a real-world application.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2 ">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse1" aria-expanded="false"
-                                        aria-controls="flush-collapse1">
-                                        Accordion Item #1
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                        accordion
-                                        body.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo1" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo1">
-                                        Accordion Item #2
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                        accordion
-                                        body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree1" aria-expanded="false"
-                                        aria-controls="flush-collapseThree1">
-                                        Accordion Item #3
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion
-                                        body. Nothing more exciting happening here in terms of content, but just filling
-                                        up the
-                                        space to make it look, at least at first glance, a bit more representative of
-                                        how this
-                                        would
-                                        look in a real-world application.</div>
-                                </div>
-                            </div>
-                            <!-- n -->
-                            <div class="accordion accordion-flush py-1 " id="accordionFlushExample">
+                        </div>
+                        <div class="col-md-12 details ">
+                            <div class="">
+                                <h5 class=" font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle font-weight-normal">Full Stack Developer</h6>
 
                             </div>
                         </div>
+                    </div>
 
+                </div>
+
+                <div class="team2grid_item shadow overflow-hidden">
+
+                    <div class="row no-gutters">
+                        <div class="col-md-12 pro-pic position-relative"
+                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg) no-repeat  top center / cover">
+                            <div class="card-img-overlay">
+                                <ul class="list-inline position-relative text-center">
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="icon-social-behance"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 details">
+                            <div class="">
+                                <h5 class=" font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle font-weight-normal">Full Stack Developer</h6>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="team2grid_item shadow overflow-hidden ">
+
+                    <div class="row no-gutters">
+                        <div class="col-md-12 pro-pic position-relative"
+                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg) no-repeat  top center / cover">
+                            <div class="card-img-overlay">
+                                <ul class="list-inline position-relative text-center">
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="icon-social-behance"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 details">
+                            <div class="">
+                                <h5 class=" font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle font-weight-normal">Full Stack Developer</h6>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="team2grid_item shadow overflow-hidden ">
+
+                    <div class="row no-gutters">
+                        <div class="col-md-12 pro-pic position-relative"
+                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg) no-repeat  top center / cover">
+                            <div class="card-img-overlay  ">
+                                <ul class="list-inline position-relative text-center ">
+                                    <li class="list-inline-item "><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item "><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li class="list-inline-item "><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="list-inline-item "><a href="#"
+                                            class="text-decoration-none d-block text-white px-1"><i
+                                                class="icon-social-behance"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 details">
+                            <div class="">
+                                <h5 class=" font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle font-weight-normal">Full Stack Developer</h6>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
-
-
         </div>
-
-
     </section>
+
 
 
     <!-- client slider -->
