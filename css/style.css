@@ -997,7 +997,10 @@ section {
 }
 
 .gallery_product_inner_discription {
-  margin-bottom: -190px;
+  height: 0;
+  overflow: hidden;
+
+  /* margin-bottom: -100%; */
   transition: all 0.3s ease-in-out;
 }
 .gallery_product:hover {
@@ -1009,7 +1012,8 @@ section {
   background: #4c12aad7;
 }
 .gallery_product:hover .gallery_product_inner_discription {
-  margin-bottom: 0;
+  /* margin-bottom: 2px; */
+  height: 180px;
 }
 
 /* contact Page */
@@ -1161,11 +1165,7 @@ section {
   color: var(--primary-color);
 }
 /* what we offer */
-/* .dm_box_main .box {
-  border-radius: 30px;
-  padding: 30px;
-  border: 1px solid #eee8e8;
-} */
+
 .verticle_bar {
   background: var(--primary-color);
   width: 150px;
@@ -1226,11 +1226,10 @@ section {
 }
 
 .about_section2 {
-  /* min-height: 100vh; */
   background: url(../images/action.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* padding: 20px; */
+
   position: relative;
   z-index: 1;
 }
@@ -1245,8 +1244,6 @@ section {
   z-index: -1;
 }
 
-
-
 .about_section2 .blur_bg {
   margin-top: 100px;
 }
@@ -1254,10 +1251,8 @@ section {
   background: #11111171;
   backdrop-filter: blur(4px);
 }
-.about_section2 .icon{
+.about_section2 .icon {
   filter: invert();
-  
-
 }
 
 /* about us - team section */
@@ -1312,15 +1307,21 @@ section {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 20px;
 }
-.team2grid .details{
+.team2grid .details {
   padding: 30px;
 }
 
-.team2grid_item{
-  border:1px solid #d3cfcf;
+.team2grid_item {
+  border: 1px solid #d3cfcf;
   border-radius: 5px;
 }
 
+/* portfolio gallery */
+.portfolio_gallery {
+  .gallery_product:hover .gallery_product_inner_discription {
+    height: 80px;
+  }
+}
 
 /* .row .counter:nth-child(1) {
   border-bottom: 1px solid black;

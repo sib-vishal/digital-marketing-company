@@ -391,6 +391,37 @@ $(document).ready(function () {
   });
 });
 
+// portfolio gallery
+
+var imageURLs = [
+  "images/portfolio/portfolio.jpg",
+  "images/portfolio/portfolio.jpg",
+  "images/portfolio/portfolio.jpg",
+  "images/portfolio/portfolio.jpg",
+];
+var backgroundColors = [
+  "image/portfolio/portfolio.jpg",
+  "#00ff00",
+  "#0000ff",
+  "#ffff00",
+];
+
+
+
+var galleryProducts = document.querySelectorAll(".portfolio_images");
+var gallery_product = document.querySelectorAll(".gallery_product");
+
+gallery_product.forEach(function (element, index) {
+  element.setAttribute("href", imageURLs[index % imageURLs.length]);
+});
+galleryProducts.forEach(function (element, index) {
+  element.style.backgroundImage = `url(${imageURLs[index % imageURLs.length]})`;
+});
+
+$(document).ready(function () {
+  $(".fancybox").fancybox();
+});
+
 $(function () {
   var a = 0;
   $(window).scroll(function () {

@@ -21,7 +21,7 @@
 
 						</ul>
 					</li>
-					<li><a href="">Portfolio</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
 					<li><a href="">Case Studies</a></li>
 
 					<li><a href="">Our Clients</a></li>

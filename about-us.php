@@ -390,7 +390,7 @@
     <!-- client slider -->
     <section class="overflow-hidden py-5  ">
         <div class="containerFull">
-            <h4 class="large_heading fontWeight800   font-Archivo">
+            <h4 class="large_heading fontWeight800 text-center  font-Archivo">
                 Our <span class="text-color1">Clients
 
                 </span>
