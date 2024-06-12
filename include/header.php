@@ -36,7 +36,7 @@
 						</ul>
 					</li>
 
-					<li><a href="">Our Clients</a></li>
+					<li><a href="our-clients.php">Our Clients</a></li>
 
 				</ul>
 			</div>
@@ -119,8 +119,8 @@
 				<fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required> </fieldset>
 				<fieldset> <textarea placeholder="Type your message here..." tabindex="5" required></textarea>
 				</fieldset>
-				<button name="submit" type="submit" id="contactus-submit" data-submit="...Sending"><i
-							id="icon" class=""></i> Send Now</button> 
+				<button name="submit" type="submit" id="contactus-submit" data-submit="...Sending"><i id="icon"
+						class=""></i> Send Now</button>
 			</form>
 		</div>
 	</div>

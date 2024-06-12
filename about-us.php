@@ -1,4 +1,4 @@
-<?php $page = 'home'; ?>
+<?php $page = 'about-us'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -191,6 +191,32 @@
         </div>
     </section>
 
+    <!-- mission vission -->
+    <section class="" style="background:#f3f3f3;">
+        <div class="containerFull">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="missionItem shadow">
+                        <h4 class="heading fontWeight700">OUR <span class="titleStroke">VISION</span></h4>
+                        <p class="mt-3 title">We are an independent creative marketing agency with a vision to set new
+                            standards and create history. We have developed as our customers have dependably requested
+                            more from us than what we do taking a look at the outcomes. With the firm conviction that
+                            your prosperity is totally basic to our own, we need all our clients, regardless of size, to
+                            consider us as long-term partners.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="missionItem shadow">
+                        <h4 class="heading fontWeight700">OUR <span class="titleStroke">MISSION</span></h4>
+                        <p class="mt-3 title">To ensure long-term success for our companies, we strive diligently to combine
+                            the best of digital and traditional marketing strategies. We will accomplish this by
+                            focusing entirely on inexpensive, more easily measurable, and more unique techniques and
+                            breakthroughs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
