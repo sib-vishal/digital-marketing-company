@@ -238,46 +238,7 @@
     </section>
 
     <!-- client slider -->'
-    <section class="overflow-hidden ">
-        <div class="containerFull">
-
-            <div class="">
-                <div class=" clients">
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (1).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (2).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (3).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (4).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (5).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (6).png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    <?php include 'include/client-slider.php'; ?>
 
     <?php include 'include/footer.php'; ?>
     <?php include 'include/footer-links.php'; ?>

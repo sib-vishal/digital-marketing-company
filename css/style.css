@@ -1323,6 +1323,157 @@ section {
   }
 }
 
+/* case study */
+.case-content {
+  .case-img {
+    margin-bottom: 20px;
+  }
+
+  /* ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		li {
+			position: relative;
+			padding-left: 30px;
+			margin-bottom: 15px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			i {
+				position: absolute;
+				top: -4px;
+				left: 0;
+		
+				font-size: 20px;
+			}
+		}
+	} */
+}
+.case-sidebar {
+}
+.case-sidebar {
+  top: 120px;
+  z-index: 1;
+  margin-left: 15px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+
+  /* border: 1px solid #f3efef; */
+  /* border-radius: 10px; */
+  .inner {
+    padding: 30px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    li {
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 15px;
+      position: relative;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      span {
+        /* font-family: $body-family; */
+        /* color: $body-color; */
+        font-size: 17px;
+        position: absolute;
+        top: 1px;
+        left: 170px;
+        /* transition: $transition; */
+      }
+      a {
+        &:hover {
+          span {
+            /* color: $main-color; */
+          }
+        }
+      }
+    }
+  }
+}
+
+/* popup box css */
+.fancybox__backdrop {
+  background: rgb(24 24 27 / 78%) !important;
+}
+.f-button.is-close-btn {
+  display: none;
+}
+.text-color1.f-button.is-close-btn {
+  display: block;
+  position: absolute;
+  top: 0 !important;
+  right: 0;
+  opacity: 1;
+  color: var(--primary-color);
+  font-size: 20px !important;
+  background: none;
+}
+.text-color1.f-button.is-close-btn:hover {
+  color: black;
+}
+
+/* popup form css */
+#dialog-content {
+  width: 500px;
+}
+
+#popup h3 {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#popup h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#popup input,
+#popup textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#popup textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#popup button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+#popup button[type="submit"]:hover {
+background: #000;
+}
+
+
+
 /* .row .counter:nth-child(1) {
   border-bottom: 1px solid black;
 } */

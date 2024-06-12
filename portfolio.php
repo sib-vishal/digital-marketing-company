@@ -76,10 +76,8 @@
                 </div>
             </div>
             <div class="row portfolio_gallery">
-                <a href="" rel="gallery" data-fancybox="Gallery"
-                    class="gallery_product col-lg-6 filter seo fancybox">
-
-                    <div class="gallery_product_inner portfolio_images  w-100  ">
+                <a href="" rel="gallery" data-fancybox="Gallery" class="gallery_product col-lg-6 filter seo fancybox">
+                    <div class="gallery_product_inner portfolio_images col-lg-6  w-100  ">
                         <div class="arrowIcon rounded-circle d-flex position-absolute ">
                             <i class="fa fa-arrow-right  text-white "></i>
                         </div>
@@ -99,11 +97,8 @@
                         </div>
                     </div>
                 </a>
-
-
-                <a href="" rel="gallery" data-fancybox="Gallery"
-                    class="gallery_product d-block  col-lg-6 filter seo fancybox">
-                    <div class="gallery_product col-lg-6 filter ppc w-100 ">
+                <a href="" rel="gallery" data-fancybox="Gallery" class="gallery_product col-lg-6 filter marketing  fancybox">
+                    <div class="gallery_product col-lg-6 filter marketing w-100 ">
                         <div class="gallery_product_inner portfolio_images w-100 ">
                             <div class="arrowIcon rounded-circle d-flex position-absolute ">
                                 <i class="fa fa-arrow-right  text-white "></i>
@@ -111,7 +106,7 @@
                             <div class="p-3  text-white">
                                 <h4 class="mb-3">
                                     Social Media Marketing
-                                    <!-- <i class="fa fa-arrow-right  text-white "></i> -->
+
                                 </h4>
 
                                 <p class="text-white gallery_product_inner_discription ">Lorem ipsum dolor sit amet
@@ -128,7 +123,7 @@
                 </a>
 
                 <a href="" rel="gallery" data-fancybox="Gallery"
-                    class="gallery_product d-block  col-lg-6 filter seo  fancybox">
+                    class="gallery_product  d-block  col-lg-6 filter   fancybox">
 
                     <div class="gallery_product col-lg-6 filter ContentMarketing w-100 ">
                         <div class="gallery_product_inner portfolio_images w-100 ">
@@ -156,7 +151,7 @@
 
                 </a>
                 <a href="" rel="gallery" data-fancybox="Gallery"
-                    class="gallery_product d-block   col-lg-6 filter seo fancybox">
+                    class="gallery_product  d-block   col-lg-6 filter  fancybox">
                     <div class="gallery_product col-lg-6 filter ContentMarketing w-100 ">
                         <div class="gallery_product_inner portfolio_images w-100 ">
                             <div class="arrowIcon rounded-circle d-flex position-absolute ">
@@ -321,51 +316,7 @@
         </div>
     </section>
     <!-- client slider -->
-    <section class="overflow-hidden py-5  ">
-        <div class="containerFull">
-            <h4 class="large_heading fontWeight800 text-center  font-Archivo">
-                Our <span class="text-color1">Clients
-
-                </span>
-            </h4>
-
-            <div class="mt-5">
-                <div class=" clients">
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (1).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (2).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (3).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (4).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (5).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (6).png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    <?php include 'include/client-slider.php'; ?>
 
     <?php include 'include/footer.php'; ?>
     <?php include 'include/footer-links.php'; ?>

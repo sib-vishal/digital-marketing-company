@@ -31,7 +31,7 @@
             <h4 class="companyName fontWeight800">POV MEDIA</h4>
             <h1 class="fontWeight800  banner_heading font-Archivo">Social Media Marketing Agency</h1>
             <p class="sub_heading">Want to know what it takes to grow your business online? Let us show you.</p>
-            <a href="contact-us.php" class="btn_1">Let's discuss <i class="fa fa-arrow-right"></i></a>
+            <a href="#" class="btn_1"  data-fancybox data-src="#dialog-content" >Let's discuss <i class="fa fa-arrow-right"></i></a>
 
           </div>
 
@@ -646,46 +646,7 @@
   </section>
 
   <!-- client slider -->'
-  <section class="overflow-hidden ">
-    <div class="containerFull">
-
-      <div class="">
-        <div class=" clients">
-          <div class="col-lg-2">
-            <div class="itemReview">
-              <img src="images/clients/client (1).png">
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="itemReview">
-              <img src="images/clients/client (2).png">
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="itemReview">
-              <img src="images/clients/client (3).png">
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="itemReview">
-              <img src="images/clients/client (4).png">
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="itemReview">
-              <img src="images/clients/client (5).png">
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="itemReview">
-              <img src="images/clients/client (6).png">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
+  <?php include 'include/client-slider.php'; ?>
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/footer-links.php'; ?>

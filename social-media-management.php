@@ -360,7 +360,7 @@
                         sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
                         voluptatum quaerat optio vel repudiandae?</p>
                     <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1">Let's
+                        <a href="#" class="btn_1"  data-fancybox data-src="#dialog-content" >Let's
                             talk now<i class="fa-regular fa-envelope icon "></i></a>
                         <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
                             &nbsp;+91-9769245614</a>
@@ -534,51 +534,7 @@
 
 
     <!-- client slider -->
-    <section class="overflow-hidden py-5  ">
-        <div class="containerFull">
-            <h4 class="large_heading fontWeight800   font-Archivo">
-                Our <span class="text-color1">Clients
-
-                </span>
-            </h4>
-
-            <div class="mt-5">
-                <div class=" clients">
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (1).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (2).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (3).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (4).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (5).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (6).png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    <?php include 'include/client-slider.php'; ?>
 
     <?php include 'include/footer.php'; ?>
     <?php include 'include/footer-links.php'; ?>

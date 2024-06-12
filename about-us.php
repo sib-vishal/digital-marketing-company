@@ -118,18 +118,22 @@
                 <div class="col-lg-6">
                     <h4 class="large_heading fontWeight800 font-Archivo text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestiae.
-    
+
                     </h4>
                 </div>
                 <div class="col">
                     <p class="title text-white">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima, reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam voluptates rerum quam, consequuntur saepe.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima,
+                        reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam
+                        voluptates rerum quam, consequuntur saepe.
 
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima, reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam voluptates rerum quam, consequuntur saepe.
-    
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima,
+                        reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam
+                        voluptates rerum quam, consequuntur saepe.
+
                     </p>
                 </div>
-    
+
             </div>
         </div>
         <div class="blur_bg py-4  ">
@@ -225,7 +229,8 @@
                         sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
                         voluptatum quaerat optio vel repudiandae?</p>
                     <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1"><i class="fa-regular fa-envelope icon "></i> &nbsp; Let's
+                        <a href="#" class="btn_1" data-fancybox data-src="#dialog-content"><i
+                                class="fa-regular fa-envelope icon "></i> &nbsp; Let's
                             talk now</a>
                         <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
                             &nbsp;+91-9769245614</a>
@@ -256,17 +261,13 @@
                             style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg) no-repeat  top center / cover">
                             <div class="card-img-overlay">
                                 <ul class="list-inline position-relative text-center">
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="icon-social-behance"></i></a></li>
                                 </ul>
                             </div>
@@ -289,17 +290,13 @@
                             style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg) no-repeat  top center / cover">
                             <div class="card-img-overlay">
                                 <ul class="list-inline position-relative text-center">
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="icon-social-behance"></i></a></li>
                                 </ul>
                             </div>
@@ -322,17 +319,13 @@
                             style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg) no-repeat  top center / cover">
                             <div class="card-img-overlay">
                                 <ul class="list-inline position-relative text-center">
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
                                                 class="icon-social-behance"></i></a></li>
                                 </ul>
                             </div>
@@ -355,17 +348,13 @@
                             style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg) no-repeat  top center / cover">
                             <div class="card-img-overlay  ">
                                 <ul class="list-inline position-relative text-center ">
-                                    <li class="list-inline-item "><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item "><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class="list-inline-item "><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
                                                 class="fa-brands fa-instagram"></i></a></li>
-                                    <li class="list-inline-item "><a href="#"
-                                            class="text-decoration-none d-block text-white px-1"><i
+                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
                                                 class="icon-social-behance"></i></a></li>
                                 </ul>
                             </div>
@@ -388,52 +377,9 @@
 
 
     <!-- client slider -->
-    <section class="overflow-hidden py-5  ">
-        <div class="containerFull">
-            <h4 class="large_heading fontWeight800 text-center  font-Archivo">
-                Our <span class="text-color1">Clients
 
-                </span>
-            </h4>
 
-            <div class="mt-5">
-                <div class=" clients">
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (1).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (2).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (3).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (4).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (5).png">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="itemReview">
-                            <img src="images/clients/client (6).png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
+    <?php include 'include/client-slider.php'; ?>
     <?php include 'include/footer.php'; ?>
     <?php include 'include/footer-links.php'; ?>
 </body>

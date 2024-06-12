@@ -3,10 +3,14 @@
 
 		<div class="header_main ">
 			<div class="header_logo d-flex">
-				<picture>
-					<source srcset="images/logo/logo_black.png" type="image/webp" />
-					<img src="images/logo/logo_black.png">
-				</picture>
+				<a href="index.php">
+
+
+					<picture>
+						<source srcset="images/logo/logo_black.png" type="image/webp" />
+						<img src="images/logo/logo_black.png">
+					</picture>
+				</a>
 
 			</div>
 			<div class="navLinks">
@@ -22,7 +26,15 @@
 						</ul>
 					</li>
 					<li><a href="portfolio.php">Portfolio</a></li>
-					<li><a href="">Case Studies</a></li>
+					<li><a href="">Case Studies</a>
+						<ul>
+							<li><a href="case-study-details.php">Case study 1</a></li>
+							<li><a href="case-study-details.php">Case study 2</a></li>
+							<li><a href="case-study-details.php">Case study 3</a></li>
+
+
+						</ul>
+					</li>
 
 					<li><a href="">Our Clients</a></li>
 
@@ -92,4 +104,25 @@
 
 	</div>
 </div>
+</div>
+<!-- dailog  -->
+<div class="popup ">
+	<div id="dialog-content" style="display:none;">
+		<button data-fancybox-close class=" text-color1 f-button is-close-btn " title="close">
+			<i class="fa-regular fa-rectangle-xmark"></i>
+		</button>
+		<div class="">
+			<form id="popup" action="" method="post">
+				<h3 class="fontWeight600 font-Archivo heading">Get a Quote</h3>
+				<fieldset> <input placeholder="Name" type="text" tabindex="1" required autofocus> </fieldset>
+				<fieldset> <input placeholder="Email Address" type="email" tabindex="2" required> </fieldset>
+				<fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required> </fieldset>
+				<fieldset> <textarea placeholder="Type your message here..." tabindex="5" required></textarea>
+				</fieldset>
+				<button name="submit" type="submit" id="contactus-submit" data-submit="...Sending"><i
+							id="icon" class=""></i> Send Now</button> 
+			</form>
+		</div>
+	</div>
+
 </div>
