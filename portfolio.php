@@ -305,7 +305,7 @@
                         sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
                         voluptatum quaerat optio vel repudiandae?</p>
                     <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1"><i class="fa-regular fa-envelope icon "></i> &nbsp; Let's
+                        <a href="#" class="btn_1" data-fancybox="" data-src="#dialog-content"><i class="fa-regular fa-envelope icon "></i> &nbsp; Let's
                             talk now</a>
                         <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
                             &nbsp;+91-9769245614</a>
