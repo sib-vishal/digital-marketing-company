@@ -124,115 +124,65 @@
     <!-- contact form  -->
 
 
-    <section class="" style="background:#c7c6c61e;">
+  
+    <section class="bggray">
         <div class="containerFull">
-            <h4 class="large_heading text-center fontWeight800 font-Archivo  " data-aos="fade-up">Have a project in
-                mind? Let's disscuss!
-            </h4>
-            <h5 class="mt-3 text-center small_heading" data-aos="fade-up">Ready to work together? Get an estimate from us.</h5>
-            <div class="row" data-aos="fade-up">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="formBlock position-relative bg-white rounded shadow">
-                        <h3 class="sub_heading fontKanit">Hello, POV MEDIA. team!</h3>
-                        <div class="row mt-lg-5 mt-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="leftContact">
+                        <h4 data-aos="zoom-in-up" class="large_heading  fontWeight800 font-Archivo ">Contact
+                            us</h4>
+                        <p class="title mt-3" data-aos="zoom-in-up">Connect with Us for Support, Inquiries, and Feedback.</p>
+
+                        <div data-aos="zoom-in-up" class="aos-init aos-animate mt-4">
+                            <iframe class="w-100 shadow "
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4210078837586!2d72.83188997425444!3d19.176805448802103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7d34f9e2403%3A0x3c57d951fa1f7e17!2sPOV%20Media!5e0!3m2!1sen!2sin!4v1718281363529!5m2!1sen!2sin"
+                                width="600" height="460" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 aos-init aos-animate" data-aos="zoom-in-up">
+                    <div class="contactForm">
+
+                        <div class="row ">
                             <div class="col-lg-6">
                                 <div class="itemForm">
-                                    <label class="small_heading fontWeight500">My name is</label>
-                                    <input type="text" name="name" class="name" placeholder="Your Name">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" name="fname" placeholder="John" id="fname">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="itemForm">
-                                    <label class="small_heading fontWeight500">From</label>
-                                    <input type="text" name="from" class="from" placeholder="Website or Company Name">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" name="lname" placeholder="Smith" id="lname">
                                 </div>
                             </div>
-                            <div class="col-lg-12 mt-4">
-                                <div class="itemForm d-flex">
-                                    <label class="small_heading fontWeight500">I’d like to discuss</label>
-                                    <div class="rightCheck ms-lg-3">
-                                        <div class="checkBox">
-                                            <ul>
-                                                <li>
-                                                    <input type="checkbox" name="" id="brand">
-                                                    <label for="brand">Brand Content &amp; Design</label>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="" id="smm">
-                                                    <label for="smm">Social Media Management</label>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="" id="strategy">
-                                                    <label for="strategy">Advertising Strategy &amp; Counsel</label>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="" id="pm">
-                                                    <label for="pm">Permformance Marketing</label>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="" id="web">
-                                                    <label for="web">Website Designing &amp; Developement</label>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="" id="cms">
-                                                    <label for="cms">Content Management System</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 mt-4">
+                            <div class="col-lg-6">
                                 <div class="itemForm">
-                                    <label class="small_heading fontWeight500">Project idea &amp; design brief.</label>
-                                    <textarea class="message" name="message"
-                                        placeholder="Pitch Your Project Idea "></textarea>
+                                    <label for="email">E-mail Address</label>
+                                    <input type="email" name="email" placeholder="johnsmith@tapar.com" id="email">
                                 </div>
                             </div>
-                            <div class="col-lg-12 mt-4">
-                                <div class="itemForm d-flex">
-                                    <label class="small_heading fontWeight500">A budget for this project is</label>
-                                    <div class="rightCheck budgetRight ms-lg-3">
-                                        <div class="checkBox">
-                                            <ul>
-                                                <li>
-                                                    <input type="radio" name="budget" id="budget">
-                                                    <label for="budget">&lt;50k</label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="budget" id="budget2">
-                                                    <label for="budget2">50k-90k</label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="budget" id="budget3">
-                                                    <label for="budget3">90k-150k</label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="budget" id="budget4">
-                                                    <label for="budget4">&gt;150k</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 mt-4">
+                            <div class="col-lg-6">
                                 <div class="itemForm">
-                                    <label class="small_heading fontWeight500">Contact me back at</label>
-                                    <input type="email" name="email" class="email" placeholder="Your E-mail">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" name="phone" placeholder="+91 999999999" id="phone">
                                 </div>
                             </div>
-                            <div class="col-lg-12 mt-4">
-                                <div class="itemForm text-center">
-                                    <button class="btn_1 border-0" aria-selected="true" tabindex="0">Send Message <i
-                                            class="fa fa-arrow-right"></i></button>
+                            <div class="col-lg-12">
+                                <div class="itemForm">
+                                    <label for="message">Your Message</label>
+                                    <textarea name="message" id="message"
+                                        placeholder="Write your message here..."></textarea>
                                 </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <button class=" send_btn py-3 w-100 bg-white border-0 fontWeight600">Send
+                                    Message</button>
                             </div>
                         </div>
-                        <div class="cirlceLeft"></div>
-                        <div class="cirlceLeft2"></div>
-                        <div class="cirlceLeft3"></div>
-                        <div class="cirlceLeft4"></div>
                     </div>
                 </div>
             </div>
