@@ -27,9 +27,9 @@
         <div class="services-main position-relative overflow-hidden ">
             <div class="containerFull w-100">
                 <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo">Our Clients
+                    <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="flip-up">Our Clients
                     </h1>
-                    <p class="text-white small_heading mt-3">
+                    <p class="text-white small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
@@ -57,24 +57,25 @@
                         <div class="col-12 col-xl-11">
                             <h2 class="mb-3 large_heading fontWeight800 mt-3 font-Archivo">Meet Our Delighted Clients
                             </h2>
-                            <p class="title mb-3">We help people to build incredible brands and
+                            <p class="title mb-3" data-aos="fade-up">We help people to build incredible brands and
                                 superior products. Our perspective is to furnish outstanding captivating services.</p>
-                            <p class="mb-5 title">We are a fast-growing company, but we have never lost sight of our
+                            <p class="mb-5 title" data-aos="fade-up">We are a fast-growing company, but we have never lost sight of our
                                 core
                                 values. We believe in collaboration, innovation, and customer satisfaction. We are
                                 always looking for new ways to improve our products and services. Lorem ipsum dolor sit
                                 amet consectetur adipisicing elit. A, perspiciatis nulla voluptate molestias cupiditate
                                 accusantium magni beatae aspernatur cum commodi. </p>
 
-                            <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                                <div class="row gy-4 gy-md-0 gx-xxl-5X" data-aos="fade-up">
                                 <div class="col-12 col-md-6">
                                     <div class="d-flex">
                                         <div class="me-4 text-color1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            <img width="55px" src="images/about/process.gif" alt="">
+                                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                                 fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                                                 <path
                                                     d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
-                                            </svg>
+                                            </svg> -->
                                         </div>
                                         <div>
                                             <h2 class="h4 mb-3 fontWeight600">Versatile Brand</h2>
@@ -86,11 +87,13 @@
                                 <div class="col-12 col-md-6">
                                     <div class="d-flex">
                                         <div class="me-4 text-color1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                                 fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
                                                 <path
                                                     d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
-                                            </svg>
+                                            </svg> -->
+                                            <img width="55px" src="images/about/laptop.gif" alt="">
+
                                         </div>
                                         <div>
                                             <h2 class="h4 mb-3 fontWeight600">Digital Agency</h2>
@@ -114,7 +117,7 @@
     <section class="bggray">
         <div class="containerFull">
 
-            <ul class="logogrid">
+            <ul class="logogrid" data-aos="fade-up">
                 <li class="logogrid__item">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg"
                         class="logogrid__img" alt="Coca Cola">
@@ -179,14 +182,14 @@
     <section>
         <div class="containerFull mt-0 ">
             <div>
-                <h3 class="tesitmonials_heading large_heading fontWeight800 mb-4 font-Archivo ">
+                <h3 class="tesitmonials_heading large_heading fontWeight800 mb-4 font-Archivo " data-aos="fade-up">
                     Client Testimonials: Hear What Our Customers Have to Say!
                 </h3>
 
             </div>
 
         </div>
-        <div class="containerFull testimonials">
+        <div class="containerFull testimonials" data-aos="fade-up">
             <div>
                 <div class="testimonial_item ">
                     <p class="title">

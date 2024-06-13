@@ -27,9 +27,9 @@
         <div class="services-main position-relative overflow-hidden ">
             <div class="containerFull w-100">
                 <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo">About Us
+                    <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="flip-up">About Us
                     </h1>
-                    <p class="text-white small_heading mt-3">
+                    <p class="text-white small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
@@ -50,10 +50,11 @@
     </div>
     <!-- intro -->
     <section class="intro_about">
-        <div class="containerFull">
-            <div class="row  gy-md-4 gy-lg-0 align-items-lg-center">
-                <div class="col-12 col-lg-6 col-xl-5 ">
-                    <img class="img-fluid rounded" loading="lazy" src="images/about/about-img-1.jpg" alt="About 1">
+        <div class="containerFull overflow-hidden">
+            <div class="row  gy-md-4 gy-lg-0 ">
+                <div class="col-12 col-lg-6 col-xl-5  ">
+                    <img class="img-fluid rounded h-100 " loading="lazy" src="images/about/about-introduction.jpg"
+                        alt="About 1">
                 </div>
                 <div class="col-12 col-lg-6 col-xl-7">
                     <div class="row justify-content-xl-center">
@@ -72,11 +73,12 @@
                                 <div class="col-12 col-md-6">
                                     <div class="d-flex">
                                         <div class="me-4 text-color1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            <img width="55px" src="images/about/process.gif" alt="">
+                                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                                 fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                                                 <path
                                                     d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
-                                            </svg>
+                                            </svg> -->
                                         </div>
                                         <div>
                                             <h2 class="h4 mb-3 fontWeight600">Versatile Brand</h2>
@@ -88,11 +90,13 @@
                                 <div class="col-12 col-md-6">
                                     <div class="d-flex">
                                         <div class="me-4 text-color1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                                 fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
                                                 <path
                                                     d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
-                                            </svg>
+                                            </svg> -->
+                                            <img width="55px" src="images/about/laptop.gif" alt="">
+
                                         </div>
                                         <div>
                                             <h2 class="h4 mb-3 fontWeight600">Digital Agency</h2>
@@ -109,19 +113,22 @@
         </div>
     </section>
     <!-- ************************ -->
-    <section class="pb-0  about_section2" style="background-image: url(images/about/demo-digital-agency-02.jpg);">
+    <section class="pb-0  about_section2 overflow-hidden"
+        style="background-image: url(images/about/demo-digital-agency-02.jpg);">
         <div class="opacity-light bg-dark-gray"></div>
 
         <div class="containerFull">
 
             <div class="row my-5">
-                <div class="col-lg-6">
-                    <h4 class="large_heading fontWeight800 font-Archivo text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestiae.
+                <div class="col-lg-6" data-aos="fade-up-right">
+                    <h4 class="large_heading fontWeight800 font-Archivo text-white mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
                     </h4>
+                    <a data-aos="" href="#" data-aos-delay="250" class="btn_1" data-fancybox
+                        data-src="#dialog-content">Let's work togather <i class="fa fa-arrow-right"></i></a>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up-left">
                     <p class="title text-white">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima,
                         reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam
@@ -194,9 +201,10 @@
     <!-- mission vission -->
     <section class="" style="background:#f3f3f3;">
         <div class="containerFull">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-lg-6 col-md-6">
-                    <div class="missionItem shadow">
+                    <div class="missionItem shadow position-relative">
+                        <img class="icon" width="75px" src="images/about/vision.gif" alt="">
                         <h4 class="heading fontWeight700">OUR <span class="titleStroke">VISION</span></h4>
                         <p class="mt-3 title">We are an independent creative marketing agency with a vision to set new
                             standards and create history. We have developed as our customers have dependably requested
@@ -206,9 +214,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="missionItem shadow">
+                    <div class="missionItem shadow position-relative">
+                        <img class="icon" width="75px" src="images/about/mission.gif" alt="">
                         <h4 class="heading fontWeight700">OUR <span class="titleStroke">MISSION</span></h4>
-                        <p class="mt-3 title">To ensure long-term success for our companies, we strive diligently to combine
+                        <p class="mt-3 title">To ensure long-term success for our companies, we strive diligently to
+                            combine
                             the best of digital and traditional marketing strategies. We will accomplish this by
                             focusing entirely on inexpensive, more easily measurable, and more unique techniques and
                             breakthroughs.</p>
@@ -223,10 +233,10 @@
 
 
     <!-- **************************** -->
-    <section class="dm_creative ">
-        <div class="containerFull">
+    <section class="dm_creative  overflow-hidden">
+        <div class="containerFull ">
             <div class="row mb-8 align-items-center">
-                <div class="col-lg-5 md-mb-50px sm-mb-30px ">
+                <div class="col-lg-5 md-mb-50px sm-mb-30px " data-aos="fade-up-right">
                     <figure class="position-relative  shadow mb-0 overflow-hidden">
                         <img src="images/why.jpg" class="w-100 " alt="" data-no-retina="">
                         <figcaption class="figcaption">
@@ -237,7 +247,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-lg-7 dm_creative_right">
+                <div class="col-lg-7 dm_creative_right" data-aos="fade-up-left">
                     <h2 class="large_heading fontWeight800  font-Archivo" style="">We're a
                         creative digital agency.</h2>
                     <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
@@ -272,9 +282,10 @@
         <div class="containerFull">
             <div class="row justify-content-center mb-4">
                 <div class="col-md-8 text-center">
-                    <h3 class="mb-3 fontWeight800  large_heading font-Archivo">Experienced & Professional
+                    <h3 class="mb-3 fontWeight800  large_heading font-Archivo" data-aos="fade-up">Experienced &
+                        Professional
                         Team</h3>
-                    <h4 class="title  ">You can relay on our amazing features list and also our
+                    <h4 class="title  " data-aos="fade-up">You can relay on our amazing features list and also our
                         customer services will be great experience for you without doubt and in no-time</h4>
                 </div>
             </div>
@@ -283,20 +294,11 @@
                 <div class="team2grid_item shadow overflow-hidden">
 
                     <div class="row no-gutters">
+                    <div class=" pro-pic_main">
                         <div class="col-md-12 pro-pic position-relative"
-                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg) no-repeat  top center / cover">
-                            <div class="card-img-overlay">
-                                <ul class="list-inline position-relative text-center">
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-instagram"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="icon-social-behance"></i></a></li>
-                                </ul>
-                            </div>
+                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg) no-repeat  top center / 100%">
+
+                        </div>
                         </div>
                         <div class="col-md-12 details ">
                             <div class="">
@@ -312,19 +314,30 @@
                 <div class="team2grid_item shadow overflow-hidden">
 
                     <div class="row no-gutters">
+                    <div class=" pro-pic_main">
                         <div class="col-md-12 pro-pic position-relative"
-                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg) no-repeat  top center / cover">
-                            <div class="card-img-overlay">
-                                <ul class="list-inline position-relative text-center">
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-instagram"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="icon-social-behance"></i></a></li>
-                                </ul>
+                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg) no-repeat  top center / 100%">
+
+                        </div>
+                        </div>
+                        <div class="col-md-12 details">
+                            <div class="">
+                                <h5 class=" font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle font-weight-normal">Full Stack Developer</h6>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="team2grid_item shadow overflow-hidden ">
+
+                    <div class="row no-gutters">
+                        <div class=" pro-pic_main">
+                            <div class="col-md-12 pro-pic position-relative"
+                                style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg) no-repeat  top center / 100%">
+
                             </div>
                         </div>
                         <div class="col-md-12 details">
@@ -341,48 +354,11 @@
                 <div class="team2grid_item shadow overflow-hidden ">
 
                     <div class="row no-gutters">
-                        <div class="col-md-12 pro-pic position-relative"
-                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg) no-repeat  top center / cover">
-                            <div class="card-img-overlay">
-                                <ul class="list-inline position-relative text-center">
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-instagram"></i></a></li>
-                                    <li class=""><a href="#" class=" d-block text-white px-1"><i
-                                                class="icon-social-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12 details">
-                            <div class="">
-                                <h5 class=" font-weight-medium mb-0">Michael Doe</h5>
-                                <h6 class="subtitle font-weight-normal">Full Stack Developer</h6>
+                        <div class=" pro-pic_main">
 
-                            </div>
-                        </div>
-                    </div>
+                            <div class="col-md-12 pro-pic position-relative"
+                                style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg) no-repeat  top center / 100%">
 
-                </div>
-
-                <div class="team2grid_item shadow overflow-hidden ">
-
-                    <div class="row no-gutters">
-                        <div class="col-md-12 pro-pic position-relative"
-                            style="background:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg) no-repeat  top center / cover">
-                            <div class="card-img-overlay  ">
-                                <ul class="list-inline position-relative text-center ">
-                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
-                                                class="fa-brands fa-instagram"></i></a></li>
-                                    <li class=" "><a href="#" class=" d-block text-white px-1"><i
-                                                class="icon-social-behance"></i></a></li>
-                                </ul>
                             </div>
                         </div>
                         <div class="col-md-12 details">

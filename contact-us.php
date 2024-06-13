@@ -29,11 +29,12 @@
 
                 <div class="row m-0">
                     <div class="col-lg-6  contact_banner_first ">
-                        <h1 class="fontWeight800  text-white banner_heading font-Archivo">Contact Us</h1>
+                        <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="fade-up">Contact Us
+                        </h1>
                     </div>
                     <div class="col-lg-6 position-relative overflow-hidden banner_video_main ">
 
-                        <p class="text-white heading font-Archivo">
+                        <p class="text-white heading font-Archivo" data-aos="flip-up">
                             We're here to here answer any question you may have. Let us help you get your project
                             started.
                         </p>
@@ -53,7 +54,7 @@
                 </h2>
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-5" data-aos="fade-up">
 
                 <div class="col " style="">
                     <div class="">
@@ -125,10 +126,11 @@
 
     <section class="" style="background:#c7c6c61e;">
         <div class="containerFull">
-            <h4 class="large_heading text-center fontWeight800 font-Archivo  ">Have a project in mind? Let's disscuss!
+            <h4 class="large_heading text-center fontWeight800 font-Archivo  " data-aos="fade-up">Have a project in
+                mind? Let's disscuss!
             </h4>
-            <h5 class="mt-3 text-center small_heading">Ready to work together? Get an estimate from us.</h5>
-            <div class="row">
+            <h5 class="mt-3 text-center small_heading" data-aos="fade-up">Ready to work together? Get an estimate from us.</h5>
+            <div class="row" data-aos="fade-up">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="formBlock position-relative bg-white rounded shadow">
                         <h3 class="sub_heading fontKanit">Hello, POV MEDIA. team!</h3>

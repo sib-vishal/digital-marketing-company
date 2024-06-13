@@ -28,10 +28,12 @@
       <div class="row banner_content  m-0">
         <div class="col-lg-6  banner_content_first ">
           <div class="">
-            <h4 class="companyName fontWeight800">POV MEDIA</h4>
-            <h1 class="fontWeight800  banner_heading font-Archivo">Social Media Marketing Agency</h1>
-            <p class="sub_heading">Want to know what it takes to grow your business online? Let us show you.</p>
-            <a href="#" class="btn_1"  data-fancybox data-src="#dialog-content" >Let's discuss <i class="fa fa-arrow-right"></i></a>
+            <h4 data-aos="flip-up" class="companyName fontWeight800">POV MEDIA</h4>
+            <h1 data-aos="fade-up" class="fontWeight800  banner_heading font-Archivo">Social Media Marketing Agency</h1>
+            <p data-aos="fade-up" data-aos-delay="200" class="sub_heading">Want to know what it takes to grow your
+              business online? Let us show you.</p>
+            <a data-aos="fade-up" href="#" data-aos-delay="250" class="btn_1" data-fancybox
+              data-src="#dialog-content">Let's discuss <i class="fa fa-arrow-right"></i></a>
 
           </div>
 
@@ -53,7 +55,7 @@
   <section class="about">
     <div class="containerFull  row align-items-center">
       <div class="col-lg-5">
-        <h2 class="font-Archivo fontWeight800">
+        <h2 data-aos="fade-up" class="font-Archivo fontWeight800">
           We are a creative bold digital agency based in India.
         </h2>
       </div>
@@ -67,8 +69,9 @@
             </div>
           </div>
           <div class="col-6">
-            <h4 class="heading fontWeight600">20+ YEARS OF EXPERIENCE</h4>
-            <p class="small_heading mt-3">We are dedicated to providing outstanding digital and design services meet the
+            <h4 class="heading fontWeight600" data-aos="fade-down">20+ YEARS OF EXPERIENCE</h4>
+            <p class="small_heading mt-3" data-aos="flip-up">We are dedicated to providing outstanding digital and
+              design services meet the
               functional and aesthetic.
             </p>
 
@@ -160,9 +163,10 @@
         </div>
 
       </div>
-      <div class="serviceSlider mt-4">
-        <div class="itemSlider  ">
-          <div class="itemSlider_inner" style="background-image:url(images/service/services1.jpg);">
+      <div class="serviceSlider mt-4" data-aos="fade-up">
+        <div class="itemSlider   ">
+          <div class="itemSlider_inner " style="background-image:url(images/service/services1.jpg);">
+
             <p class="small_heading fontWeight500 count">01</p>
             <h3 class="heading my-3">
               Digital Marketing
@@ -275,7 +279,7 @@
             <button class="btn btn-default filter-button" data-filter="seo">SEO</button>
             <button class="btn btn-default filter-button" data-filter="ContentMarketing">Content Marketing</button>
             <button class="btn btn-default filter-button" data-filter="marketing">Digital Marketing</button>
-            <!-- <button class="btn btn-default filter-button" data-filter="ppc">PPC</button> -->
+
           </div>
         </div>
         <br />
@@ -394,19 +398,26 @@
             <div class="col-lg-2 col-md-2 text-center aos-init" data-aos="zoom-in-up">
               <img src="images/logo/logo_black.png" class="w-100 logoIcons">
             </div>
-            <div class="col-lg-5 col-md-5 aos-init " data-aos="zoom-in-up">
+            <div class="col-lg-5 col-md-5 aos-init position-relative " data-aos="zoom-in-up">
               <div class="missedCall ">
-                <h4 class="heading text_primary text-uppercase fontWeight700">Give us a call!</h4>
+                <h4 class="heading  text-uppercase fontWeight700">Give us a call!</h4>
                 <a href="tel:+91-9769245614"
                   class="medium_heading mt-2 d-block text-color1 fontWeight600">+91-9769245614</a>
               </div>
+
+              <i class="fa-solid fa-phone position-absolute banner_heading call_action1"></i>
             </div>
-            <div class="col-lg-5 col-md-5 aos-init" data-aos="zoom-in-up">
+            <div class="col-lg-5 col-md-5  position-relative aos-init" data-aos="zoom-in-up">
               <div class="contactRightHome">
-                <h5 class="small_heading fontWeight600"><a class="text-color1 "
-                    href="mailto:contact@povmedia.in">contact@povmedia.in</a>
+                <h5 class="heading  text-uppercase fontWeight700 ">
+                  Drop mail to us <br>
+
                 </h5>
+                <a class="medium_heading mt-2 d-block text-color1 fontWeight600 "
+                  href="mailto:contact@povmedia.in">contact@povmedia.in</a>
               </div>
+              <i class="fa-regular fa-envelope  position-absolute banner_heading call_action1"></i>
+
             </div>
 
           </div>
@@ -535,9 +546,9 @@
   <!-- contact -->
   <section>
     <div class="containerFull">
-      <h4 class="large_heading text-center fontWeight800 font-Archivo ">Have a project? We would love to help.</h4>
-      <h5 class="mt-3 text-center small_heading">Ready to work together? Get an estimate from us.</h5>
-      <div class="row">
+      <h4 class="large_heading text-center fontWeight800 font-Archivo  " data-aos="fade-up" >Have a project? We would love to help.</h4>
+      <h5 class="mt-3 text-center small_heading" data-aos="fade-up" >Ready to work together? Get an estimate from us.</h5>
+      <div class="row" data-aos="fade-up" >
         <div class="col-lg-10 offset-lg-1">
           <div class="formBlock position-relative">
             <h3 class="sub_heading fontKanit">Hello, POV MEDIA. team!</h3>
@@ -645,8 +656,11 @@
     </div>
   </section>
 
-  <!-- client slider -->'
-  <?php include 'include/client-slider.php'; ?>
+  <!-- client slider -->
+  <div class="home_client_slider">
+
+    <?php include 'include/client-slider.php'; ?>
+  </div>
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/footer-links.php'; ?>

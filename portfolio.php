@@ -27,9 +27,9 @@
         <div class="services-main position-relative overflow-hidden ">
             <div class="containerFull w-100">
                 <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo">Our Portfolio
+                    <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="zoom-in">Our Portfolio
                     </h1>
-                    <p class="text-white small_heading mt-3">
+                    <p class="text-white small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
@@ -97,7 +97,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="" rel="gallery" data-fancybox="Gallery" class="gallery_product col-lg-6 filter marketing  fancybox">
+                <a href="" rel="gallery" data-fancybox="Gallery"
+                    class="gallery_product col-lg-6 filter marketing  fancybox">
                     <div class="gallery_product col-lg-6 filter marketing w-100 ">
                         <div class="gallery_product_inner portfolio_images w-100 ">
                             <div class="arrowIcon rounded-circle d-flex position-absolute ">
@@ -185,19 +186,22 @@
 
 
     <!-- ************************ -->
-    <section class="pb-0  about_section2" style="background-image: url(images/about/demo-digital-agency-02.jpg);">
+    <section class="pb-0  about_section2 overflow-hidden"
+        style="background-image: url(images/about/demo-digital-agency-02.jpg);">
         <div class="opacity-light bg-dark-gray"></div>
 
         <div class="containerFull">
 
             <div class="row my-5">
-                <div class="col-lg-6">
-                    <h4 class="large_heading fontWeight800 font-Archivo text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestiae.
+                <div class="col-lg-6" data-aos="fade-up-right">
+                    <h4 class="large_heading fontWeight800 font-Archivo text-white mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
                     </h4>
+                    <a data-aos="" href="#" data-aos-delay="250" class="btn_1" data-fancybox
+                        data-src="#dialog-content">Let's work togather <i class="fa fa-arrow-right"></i></a>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up-left">
                     <p class="title text-white">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam maiores temporibus minima,
                         reiciendis dolor corporis quos odio architecto nobis adipisci optio atque! Repellendus nam
@@ -271,12 +275,11 @@
 
 
 
-
     <!-- **************************** -->
-    <section class="dm_creative ">
+    <section class="dm_creative overflow-hidden ">
         <div class="containerFull">
             <div class="row mb-8 align-items-center">
-                <div class="col-lg-5 md-mb-50px sm-mb-30px ">
+                <div class="col-lg-5 md-mb-50px sm-mb-30px " data-aos="fade-up-right">
                     <figure class="position-relative  shadow mb-0 overflow-hidden">
                         <img src="images/why.jpg" class="w-100 " alt="" data-no-retina="">
                         <figcaption class="figcaption">
@@ -287,7 +290,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-lg-7 dm_creative_right">
+                <div class="col-lg-7 dm_creative_right" data-aos="fade-up-left">
                     <h2 class="large_heading fontWeight800  font-Archivo" style="">We're a
                         creative digital agency.</h2>
                     <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
@@ -305,8 +308,8 @@
                         sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
                         voluptatum quaerat optio vel repudiandae?</p>
                     <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1" data-fancybox="" data-src="#dialog-content"><i class="fa-regular fa-envelope icon "></i> &nbsp; Let's
-                            talk now</a>
+                        <a href="#" class="btn_1" data-fancybox data-src="#dialog-content">Let's
+                            talk now<i class="fa-regular fa-envelope icon "></i></a>
                         <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
                             &nbsp;+91-9769245614</a>
                     </div>

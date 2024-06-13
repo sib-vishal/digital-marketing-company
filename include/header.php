@@ -126,3 +126,17 @@
 	</div>
 
 </div>
+
+<div class="go-top shadow active">
+	<i class="fa fa-arrow-up"></i>
+</div>
+
+<div class="whatChat">
+	<a target="_blank" href="https://api.whatsapp.com/send?phone=+919769245614&amp;text=Hi">
+		<p>Chat with us</p>
+		<picture>
+			<source srcset="images/whatsapp (1).png" type="image/webp">
+			<img src="images/whatsapp (1).png">
+		</picture>
+	</a>
+</div>

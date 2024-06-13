@@ -40,13 +40,13 @@
 </section> -->
 <section class="overflow-hidden py-5  ">
         <div class="containerFull">
-            <h4 class="large_heading fontWeight800 text-center  font-Archivo">
-                Our <span class="text-color1">Clients
+            <h4 class="large_heading fontWeight800 text-center  font-Archivo" data-aos="fade-up" >
+                Our <span class="text-color1" >Clients
 
                 </span>
             </h4>
 
-            <div class="mt-5">
+            <div class="mt-5" data-aos="fade-up" >
                 <div class=" clients">
                     <div class="col-lg-2">
                         <div class="itemReview">

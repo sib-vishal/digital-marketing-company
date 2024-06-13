@@ -26,12 +26,12 @@
 				</div>
 			</div>
 			<div class="col-12 col-xl-3 col-lg-4 col-md-6  order-lg-2 order-md-3 sm-mb-20px">
-				<span class="heading fw-700 d-block   text-uppercase">Address</span>
+				<span class="heading  d-block  fontWeight500">Address</span>
 				<p class="mt-2 text-white  small_heading "><strong class=" fw-600 mb-1"><i
 							class="fa-solid fa-location-dot"></i> &nbsp;Pov
 						Media </strong> <br>Goregaon (E), Mumbai.
 				</p>
-				<span class=" fw-600 d-block   text-uppercase mt-4 heading ">Contact Us</span>
+				<span class=" fw-600 d-block  fontWeight500 mt-4 heading ">Contact Us</span>
 				<div class="mt-2 text-white">
 
 					<a href="tel:+91-9769245614 " class="text-white small_heading"> <i class="fa-solid fa-phone"></i>
@@ -39,11 +39,11 @@
 				</div>
 			</div>
 			<div class="col-12 col-xl-3 col-lg-4 col-md-6  order-md-4 sm-mb-30px">
-				<span class=" fw-600 d-block   text-uppercase heading">Work inquiries</span>
+				<span class=" fw-600 d-block  fontWeight500 heading">Work inquiries</span>
 				<p class="mb-0 mt-1 text-white">Interested in working with us? </p>
 				<a href="mailto:contact@povmedia.in" class="  fw-600 mt-2 d-block text-white small_heading"><i
 						class="fa-solid fa-envelope"></i> contact@povmedia.in</a>
-				<p class=" fw-600 d-block   text-uppercase heading text-white mt-4">Work with us</p>
+				<p class=" fw-600 d-block  fontWeight500 heading text-white mt-4">Work with us</p>
 				<p class="mb-0 text-white">Looking for a job opportunity?</p>
 				<!-- <a href="mailto:hr@povmedia.in" class="  fw-600 d-inline-block">hr@povmedia.in</a> -->
 				<a href="mailto:hr@povmedia.in" class="  fw-600 mt-2 d-block text-white small_heading"><i

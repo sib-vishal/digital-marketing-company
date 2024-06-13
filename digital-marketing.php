@@ -27,9 +27,10 @@
         <div class="services-main position-relative  ">
             <div class="containerFull w-100">
                 <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo">Digital Marketing
+                    <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="flip-up">Digital
+                        Marketing
                     </h1>
-                    <p class="text-white small_heading mt-3">
+                    <p class="text-white small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
@@ -48,9 +49,9 @@
 
 
     </div>
-    <section class=" position-relative">
+    <section class=" position-relative overflow-hidden">
 
-        <div class="containerFull">
+        <div class="containerFull ">
             <!-- <div class="row"> -->
             <div class="row">
 
@@ -59,7 +60,7 @@
                     <h4 class="fontWeight600 heading text-color1">
                         Digital Marketing
                     </h4>
-                    <h3 class="large_heading fontWeight800 mt-3 font-Archivo">
+                    <h3 class="large_heading fontWeight800 mt-3 font-Archivo" data-aos="zoom-in">
                         Unlocking Digital Horizons: Navigating the Realm of Digital Marketing
                     </h3>
                 </div>
@@ -76,7 +77,7 @@
                         voluptatem quos fugit sed velit, rerum ex. Expedita quos sequi itaque molestias?
                         Ignite your online presence with our powerhouse digital marketing
                         solutions.
-                       
+
                     </p>
 
 
@@ -91,14 +92,14 @@
     </section>
     <!-- 2 -->
 
-    <section class="bggray">
+    <section class="bggray overflow-hidden">
         <div class="containerFull ">
             <div>
-                <h3 class="fontWeight600 heading text-color1">Our Services</h3>
-                <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
+                <h3 class="fontWeight600 heading text-color1" data-aos="fade-up">Our Services</h3>
+                <h4 class="large_heading fontWeight800 mt-3 font-Archivo" data-aos="fade-up">
                     Explore Our Comprehensive Range of Services
                 </h4>
-                <p class="mt-3 title">
+                <p class="mt-3 title" data-aos="fade-up">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque accusamus ipsa excepturi rem
                     quis quaerat! Non eaque animi excepturi error expedita, assumenda laudantium autem, ab esse
                     reiciendis explicabo facere debitis ex distinctio nulla. Soluta facere provident quaerat
@@ -106,7 +107,7 @@
 
                 </p>
 
-                <div>
+                <div data-aos="fade-up">
                     <ul class="d-grid dm-services-list">
                         <li>
                             <i class="fas fa-search"></i> Search Engine Optimization (SEO)
@@ -132,6 +133,9 @@
                         <li>
                             <i class="fas fa-lightbulb"></i> Digital Strategy Consultation
                         </li>
+                        <li>
+                            <i class="fas fa-lightbulb"></i> Digital Strategy Consultation
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -147,13 +151,13 @@
 
                 <div class="col-lg-7 dm_box_main">
                     <div>
-                        <h3 class="fontWeight600 heading text-color1"> What We Offer!</h3>
-                        <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
+                        <h3 class="fontWeight600 heading text-color1" data-aos="fade-up"> What We Offer!</h3>
+                        <h4 class="large_heading fontWeight800 mt-3 font-Archivo" data-aos="fade-up">
                             Focus on Your Core, Leave Digital Marketing to Us!
                         </h4>
 
                     </div>
-                    <div class=" box  mt-4">
+                    <div class=" box  mt-4" data-aos="fade-up">
                         <div>
                             <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
 
@@ -257,13 +261,16 @@
     <section class="callActionBg">
         <div class="containerFull">
             <div class="row text-white">
-                <div class="col-lg-5 md-mb-10px appear anime-child anime-complete">
-                    <h3 class="large_heading font-Archivo fontWeight800 " style="">We want
+                <div class="col-lg-5 md-mb-10px ">
+                    <h3 class="large_heading font-Archivo fontWeight800 mb-3 " data-aos="fade-up" style="">We want
                         to bring and business the
                         digital world.</h3>
+
+                    <a data-aos="" href="#" data-aos-delay="250" class="btn_1 aos-init aos-animate"  data-fancybox=""
+                        data-src="#dialog-content">Let's work togather <i class="fa fa-arrow-right"></i></a>
                 </div>
-                <div class="col-lg-7 appear anime-child anime-complete">
-                    <div class="row" style="">
+                <div class="col-lg-7 " data-aos="fade-up">
+                    <div class="row" style="" >
                         <div class="col-md-5">
                             <div class="text-color3 fontWeight600 heading ">Successfully finished
                                 projects with creativity.</div>
@@ -305,10 +312,10 @@
         </div>
     </section>
     <!-- **************************** -->
-    <section class="dm_creative ">
+    <section class="dm_creative overflow-hidden ">
         <div class="containerFull">
             <div class="row mb-8 align-items-center">
-                <div class="col-lg-5 md-mb-50px sm-mb-30px ">
+                <div class="col-lg-5 md-mb-50px sm-mb-30px " data-aos="fade-up-right">
                     <figure class="position-relative  shadow mb-0 overflow-hidden">
                         <img src="images/why.jpg" class="w-100 " alt="" data-no-retina="">
                         <figcaption class="figcaption">
@@ -319,7 +326,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-lg-7 dm_creative_right">
+                <div class="col-lg-7 dm_creative_right"  data-aos="fade-up-left">
                     <h2 class="large_heading fontWeight800  font-Archivo" style="">We're a
                         creative digital agency.</h2>
                     <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
@@ -337,7 +344,7 @@
                         sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
                         voluptatum quaerat optio vel repudiandae?</p>
                     <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1"  data-fancybox data-src="#dialog-content" >Let's
+                        <a href="#" class="btn_1" data-fancybox data-src="#dialog-content">Let's
                             talk now<i class="fa-regular fa-envelope icon "></i></a>
                         <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
                             &nbsp;+91-9769245614</a>
@@ -357,16 +364,16 @@
             <div class="row">
                 <div class="col-lg-6">
 
-                    <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
+                    <h4 class="large_heading fontWeight800 mt-3 font-Archivo" data-aos="fade-up">
                         <span class="text-color1">
                             Frequently
                         </span> Asked Questions
                     </h4>
-                    <p class="mt-3 title">
+                    <p class="mt-3 title" data-aos="fade-up">
                         Our in-house team of recruitment specialists will nurture your leads all the way through to
                         completed application.
                     </p>
-                    <p class="mt-3 title">We as a full service leading digital marketing firm, offers customized
+                    <p class="mt-3 title" data-aos="fade-up">We as a full service leading digital marketing firm, offers customized
                         story-based digital
                         marketing services to build, promote & scale your brand so it can clearly & easily attract your
                         ideal clients.</p>
@@ -376,7 +383,7 @@
 
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up">
                     <div class="">
                         <div class="accordion accordion-flush py-1 " id="accordionFlushExample">
                             <div class="accordion-item ">
