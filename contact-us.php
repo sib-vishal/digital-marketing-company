@@ -143,7 +143,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-6 aos-init aos-animate" data-aos="zoom-in-up">
+                <div class="col-lg-6 aos-init aos-animate contact_page" data-aos="zoom-in-up">
                     <div class="contactForm">
 
                         <div class="row ">
