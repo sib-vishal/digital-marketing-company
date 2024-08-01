@@ -332,7 +332,7 @@ section {
   & ul {
     margin-top: 15px;
     & li {
-      padding: 5px 0;
+      padding: 8px 0;
       & a {
         position: relative;
         color: #fff;
@@ -341,10 +341,11 @@ section {
         &::after {
           content: "\f105";
           position: absolute;
-          top: 0px;
+          top: 50%;
+          transform: translateY(-50%);
           left: 0px;
           color: #fff;
-          font-size: 18px;
+          font-size: 15px;
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
         }
@@ -941,8 +942,8 @@ section {
   margin-top: 50px;
 }
 .imgCustomer {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: var(--primary-color);
   border-radius: 50%;
   display: flex;
@@ -951,7 +952,7 @@ section {
   justify-content: center;
 }
 .imgCustomer i {
-  font-size: 40px;
+  font-size: 25px;
   color: white;
 }
 
@@ -1433,7 +1434,40 @@ section {
     margin-bottom: 20px;
   }
 }
-.case-sidebar {
+.case-sidebar #bannerForm {
+  padding: 30px;
+  background: #fff;
+}
+#bannerForm .submit-btn{
+  width: 100%;
+  padding: 13px ;
+  color: #fff;
+  font-weight: 600;
+  background: var(--primary-color);
+  border: none;
+}
+#bannerForm .submit-btn{
+  width: 100%;
+  padding: 13px ;
+  color: #fff;
+  font-weight: 600;
+  background:var(--primary-color);
+  border: none;
+}
+#bannerForm .submit-btn:hover{
+
+  background:#7244bd9f;
+
+}
+.form-floating > .form-control:focus,
+.form-select:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
+  border-color: var(--primary-color);
+  -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+.formItem {
+  margin-top: 15px;
 }
 .case-sidebar {
   top: 120px;
@@ -1441,7 +1475,7 @@ section {
   margin-left: 15px;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 
-  .inner {
+  /* .inner {
     padding: 30px;
   }
   ul {
@@ -1466,12 +1500,12 @@ section {
       a {
         &:hover {
           span {
-            /* color: $main-color; */
+            
           }
         }
       }
     }
-  }
+  } */
 }
 
 /* popup box css */
@@ -1741,11 +1775,11 @@ fieldset {
 
 .dot {
   display: inline-block;
-  min-width: 25px;
-  height: 25px;
+  min-width: 20px;
+  height: 20px;
   border: 2px dashed var(--primary-color);
   border-radius: 100%;
-  padding: 5px;
+  padding: 3px;
   animation: rotate 2s ease-in-out infinite;
 }
 .dot-inner {
@@ -1802,7 +1836,8 @@ fieldset {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
-.case-study-grid .item_grid:hover::after,.case-study-grid .item_grid .arrowIcon {
+.case-study-grid .item_grid:hover::after,
+.case-study-grid .item_grid .arrowIcon {
   opacity: 1;
 }
 .case-study-grid .item_grid:hover .item_content {
@@ -1836,4 +1871,20 @@ fieldset {
   height: 100%;
 
   object-fit: contain;
+}
+.clients-bg {
+  /* background: #f6f6f6a9; */
+  position: relative;
+  z-index: 1;
+  /* overflow: hidden; */
+}
+.clients-bg::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 30px;
+  background: #f6f6f6a9;
+  z-index: -1;
+  display: block;
 }

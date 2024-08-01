@@ -45,7 +45,7 @@
 
         <div class="containerFull">
             <!-- <div class="row"> -->
-            <div class="row">
+            <div class="row align-items-center">
 
                 <div class="col-lg-6">
 
@@ -68,14 +68,7 @@
                         adipisci ut
                         voluptatem quos fugit sed velit, rerum ex. Expedita quos sequi itaque molestias?
                     </p>
-                    <p class="mt-3 title ">Ignite your online presence with our powerhouse digital marketing
-                        solutions.
-                        Dominate the digital
-                        realm, boost your brand, and reach new heights with POV Media’s expert strategies.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure perferendis rem
-                        ipsum
-                        esse nam beatae.
-                    </p>
+                 
                 </div>
                 <!-- <div class="d-flex gap-4">
 

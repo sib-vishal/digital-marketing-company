@@ -26,30 +26,32 @@
         <div class="services-main position-relative overflow-hidden ">
             <div class="containerFull w-100">
                 <div class=" services_banner_first  ">
-                    <h1 class="fontWeight800   banner_heading font-Archivo"  data-aos="zoom-in">Case Study Details
+                    <h1 class="fontWeight800   banner_heading font-Archivo" data-aos="zoom-in">Case Study Details
                     </h1>
-                    <p class=" small_heading mt-3"   data-aos="fade-up">
+                    <p class=" small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
                 </div>
             </div>
 
-            
+
         </div>
 
     </div>
     <section class="">
         <div class="containerFull">
             <h3 class=" large_heading fontWeight800 mb-3 font-Archivo">Content marketing case studies</h3>
-            <p class="title"  data-aos="fade-up">Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus
+            <p class="title" data-aos="fade-up">Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit
+                amet nisl tempus
                 convallis quis ac lectus. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia
                 in, elementum id enim. Donec rutrum congue leo eget malesuada. Donec sollicitudin molestie
                 malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit
                 aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt
                 nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus
                 magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
-            <p class="title mt-3"  data-aos="fade-up">Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget
+            <p class="title mt-3" data-aos="fade-up">Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus
+                suscipit tortor eget
                 felis
                 porttitor volutpat. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et,
                 porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
@@ -66,12 +68,14 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="case-content">
-                        <div class="case-img w-100  rounded-1 overflow-hidden shadow"  data-aos="zoom-in">
+                        <div class="case-img w-100  rounded-1 overflow-hidden shadow" data-aos="zoom-in">
                             <img class="w-100" src="images/cases-study/case1.avif" alt="Image">
                         </div>
-                        <span class="fontWeight600 heading text-color1 d-block"  data-aos="fade-right">Marketing</span>
-                        <h3 class="large_heading fontWeight800 mb-3 font-Archivo"  data-aos="fade-up" >Content marketing case studies</h3>
-                        <p class="title" data-aos="fade-up">Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl
+                        <span class="fontWeight600 heading text-color1 d-block" data-aos="fade-right">Marketing</span>
+                        <h3 class="large_heading fontWeight800 mb-3 font-Archivo" data-aos="fade-up">Content marketing
+                            case studies</h3>
+                        <p class="title" data-aos="fade-up">Pellentesque in ipsum id orci porta dapibus. Curabitur non
+                            nulla sit amet nisl
                             tempus
                             convallis quis ac lectus. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia
                             in, elementum id enim. Donec rutrum congue leo eget malesuada. Donec sollicitudin molestie
@@ -79,7 +83,8 @@
                             aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt
                             nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus
                             magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
-                        <p class="title mt-3" data-aos="fade-up">Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit
+                        <p class="title mt-3" data-aos="fade-up">Vivamus suscipit tortor eget felis porttitor volutpat.
+                            Vivamus suscipit
                             tortor eget felis
                             porttitor volutpat. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et,
                             porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
@@ -89,8 +94,10 @@
                         <div class="mt-5">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <h3 class="large_heading fontWeight800 mb-3 font-Archivo" data-aos="fade-up">Problem solve</h3>
-                                    <p class="title" data-aos="fade-up">Proin eget tortor risus. Sed porttitor lectus nibh. Vivamus magna
+                                    <h3 class="large_heading fontWeight800 mb-3 font-Archivo" data-aos="fade-up">Problem
+                                        solve</h3>
+                                    <p class="title" data-aos="fade-up">Proin eget tortor risus. Sed porttitor lectus
+                                        nibh. Vivamus magna
                                         justo, lacinia
                                         eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl
                                         tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci
@@ -100,7 +107,7 @@
                                         Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam.
                                     </p>
 
-                                   
+
                                 </div>
 
                                 <div class="col-lg-6" data-aos="fade-up">
@@ -114,7 +121,8 @@
 
                         <h3 class="large_heading fontWeight800 mb-3 font-Archivo mt-5" data-aos="fade-up">Results</h3>
 
-                        <p class="title" data-aos="fade-up">Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor
+                        <p class="title" data-aos="fade-up">Vivamus suscipit tortor eget felis porttitor volutpat.
+                            Vivamus suscipit tortor
                             eget felis
                             porttitor volutpat. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et,
                             porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
@@ -125,7 +133,7 @@
                 <div class="col-lg-4">
 
                     <div class="case-sidebar sticky-lg-top pb-0 ">
-                        <div class="inner">
+                        <!-- <div class="inner">
                             <h3 class="font-Archio fontWeight700 heading">Case Study Information</h3>
                             <ul>
                                 <li>
@@ -163,7 +171,44 @@
                         </div>
                         <button data-fancybox data-src="#dialog-content" class="w-100 btn_1 border-0">
                             Get a Quote
-                        </button>
+                        </button> -->
+                        <form id="bannerForm" method="post" action="email.php">
+                            <h3 class="  fontWeight700 font-Archivo text-center mb-3">Request a Quote</h3>
+                            <div class="formItem">
+                                <div class="form-floating mb-2">
+                                    <input type="hidden" name="hidden">
+                                    <input type="text" required="" class="form-control" id="name" name="name"
+                                        placeholder="name">
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+                            <div class="formItem">
+                                <div class="form-floating mb-2">
+                                    <input type="email" required="" class="form-control" id="email" name="email"
+                                        placeholder="email">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="formItem">
+                                <div class="form-floating mb-2">
+                                    <input type="tel" required="" class="form-control" id="phone" name="phone"
+                                        placeholder="phone">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="formItem">
+                                <div class="form-floating mb-2">
+                                    <input type="text" required="" class="form-control" id="phone" name="phone"
+                                        placeholder="phone">
+                                    <label for="phone">Website Link</label>
+                                </div>
+                            </div>
+
+                            <div class="formItem">
+                                <button class="submit-btn" name="submit" type="submit" id="contactus-submit"
+                                    data-submit="...Sending"><i id="icon" class=""></i> Send Now</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

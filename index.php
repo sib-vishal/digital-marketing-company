@@ -49,7 +49,54 @@
     </div>
 
   </div>
-  <?php include 'include/client-slider.php'; ?>
+  <!-- <section class="overflow-hidden py-5  "> -->
+  <div class=" clients-bg" >
+    <div class="containerFull px-5 py-5 bg-white rounded-2 " style="margin-top:-30px; ">
+      <h4 class="large_heading fontWeight800 text-center  font-Archivo" data-aos="fade-up">
+        Our <span class="text-color1">Clients
+
+        </span>
+      </h4>
+
+      <div class="mt-4 " data-aos="fade-up">
+        <div class=" clients">
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (1).png">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (2).png">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (3).png">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (4).png">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (5).png">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="itemReview">
+              <img src="images/clients/client (6).png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- </section> -->
 
 
 
@@ -175,7 +222,8 @@
                 </span>
               </span>
               Digital Marketing
-            </h3></div>
+            </h3>
+          </div>
         </div>
         <div class="itemSlider  ">
           <div class="itemSlider_inner" style="background-image:url(images/service/services2.png);">
@@ -186,7 +234,8 @@
                 </span>
               </span>
               Social Media Management
-            </h3></div>
+            </h3>
+          </div>
         </div>
         <div class="itemSlider">
           <div class="itemSlider_inner" style="background-image:url(images/service/services3.png);">
@@ -197,7 +246,8 @@
                 </span>
               </span>
               Content Marketing
-            </h3></div>
+            </h3>
+          </div>
         </div>
         <div class="itemSlider">
           <div class="itemSlider_inner" style="background-image:url(images/influencer-marketing1.jpg);">
@@ -426,8 +476,8 @@
   </section>
 
   <!-- reviews -->
-  <section class="bgTestimonial ">
-    <div class="containerFull">
+  <section class="bgTestimonial  ">
+    <div class="containerFull ">
       <div class="row">
         <div class="col-lg-4">
           <div class="leftTesimonial">
@@ -657,7 +707,7 @@
     </div>
   </section>
 
- 
+
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/footer-links.php'; ?>

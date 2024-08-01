@@ -53,7 +53,7 @@
 
         <div class="containerFull ">
             <!-- <div class="row"> -->
-            <div class="row">
+            <div class="row align-items-center">
 
                 <div class="col-lg-6">
 
