@@ -29,15 +29,16 @@
 
                 <div class="row m-0">
                     <div class="col-lg-6  contact_banner_first ">
-                        <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="fade-up">Contact Us
+                        <h1 class="fontWeight800  text-white banner_heading font-Archivo mb-2" data-aos="fade-up">Contact Us
                         </h1>
-                    </div>
-                    <div class="col-lg-6 position-relative overflow-hidden banner_video_main ">
-
-                        <p class="text-white heading font-Archivo" data-aos="flip-up">
+                        <p class="text-white small_heading font-Archivo" data-aos="flip-up">
                             We're here to here answer any question you may have. Let us help you get your project
                             started.
                         </p>
+                    </div>
+                    <div class="col-lg-6 position-relative overflow-hidden banner_video_main ">
+
+
 
                     </div>
                 </div>
@@ -124,7 +125,7 @@
     <!-- contact form  -->
 
 
-  
+
     <section class="bggray">
         <div class="containerFull">
             <div class="row">
@@ -132,7 +133,8 @@
                     <div class="leftContact">
                         <h4 data-aos="zoom-in-up" class="large_heading  fontWeight800 font-Archivo ">Contact
                             us</h4>
-                        <p class="title mt-3" data-aos="zoom-in-up">Connect with Us for Support, Inquiries, and Feedback.</p>
+                        <p class="title mt-3" data-aos="zoom-in-up">Connect with Us for Support, Inquiries, and
+                            Feedback.</p>
 
                         <div data-aos="zoom-in-up" class="aos-init aos-animate mt-4">
                             <iframe class="w-100 shadow "

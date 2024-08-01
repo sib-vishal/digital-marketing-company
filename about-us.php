@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Services | Pov Media</title>
+    <title>About Us | Pov Media</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <?php include 'include/head-links.php'; ?>
@@ -24,26 +24,26 @@
         <?php include 'include/header.php'; ?>
 
 
-        <div class="services-main position-relative overflow-hidden ">
+        <div class="services-main about-banner position-relative overflow-hidden ">
             <div class="containerFull w-100">
-                <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="flip-up">About Us
+                <div class=" services_banner_first  ">
+                    <h1 class="fontWeight800   banner_heading font-Archivo" data-aos="flip-up">About Us
                     </h1>
-                    <p class="text-white small_heading mt-3" data-aos="fade-up">
+                    <p class=" w-100 small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
                 </div>
             </div>
 
-            <div class="custom-shape-divider-top-1718012193 ">
+            <!-- <div class="custom-shape-divider-top-1718012193 ">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
                         d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
                         class="shape-fill"></path>
                 </svg>
-            </div>
+            </div> -->
         </div>
 
 
@@ -53,7 +53,7 @@
         <div class="containerFull overflow-hidden">
             <div class="row  gy-md-4 gy-lg-0 ">
                 <div class="col-12 col-lg-6 col-xl-5  ">
-                    <img class="img-fluid rounded h-100 " loading="lazy" src="images/about/about-introduction.jpg"
+                    <img class="img-fluid rounded h-100 " loading="lazy" src="images/about/who-we-are.png"
                         alt="About 1">
                 </div>
                 <div class="col-12 col-lg-6 col-xl-7">
@@ -114,7 +114,7 @@
     </section>
     <!-- ************************ -->
     <section class="pb-0  about_section2 overflow-hidden"
-        style="background-image: url(images/about/demo-digital-agency-02.jpg);">
+        style="background-image: url(images/call-to-action.png);">
         <div class="opacity-light bg-dark-gray"></div>
 
         <div class="containerFull">
@@ -238,13 +238,13 @@
             <div class="row mb-8 align-items-center">
                 <div class="col-lg-5 md-mb-50px sm-mb-30px " data-aos="fade-up-right">
                     <figure class="position-relative  shadow mb-0 overflow-hidden">
-                        <img src="images/why.jpg" class="w-100 " alt="" data-no-retina="">
-                        <figcaption class="figcaption">
+                        <img src="images/exp-in-marketing.png" class="w-100 " alt="" data-no-retina="">
+                        <!-- <figcaption class="figcaption">
                             <h1 class="large_heading fontWeight800 d-flex justify-content-center text-color1 ">20<sub
                                     class="fs-40 lh-40 text-dark-gray position-relative top-minus-40px">+</sub></h1>
                             <span class="title fontWeight600">Years
                                 working experience</span>
-                        </figcaption>
+                        </figcaption> -->
                     </figure>
                 </div>
                 <div class="col-lg-7 dm_creative_right" data-aos="fade-up-left">

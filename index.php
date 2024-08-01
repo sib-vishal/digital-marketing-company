@@ -49,10 +49,12 @@
     </div>
 
   </div>
+  <?php include 'include/client-slider.php'; ?>
+
 
 
   <!-- about -->
-  <section class="about">
+  <!-- <section class="about">
     <div class="containerFull  row align-items-center">
       <div class="col-lg-5">
         <h2 data-aos="fade-up" class="font-Archivo fontWeight800">
@@ -96,7 +98,7 @@
         </div>
       </div>
 
-      <!--  -->
+      
       <div class=" experienceGrid_item">
         <div class="row justify-content-between">
 
@@ -110,7 +112,7 @@
           </div>
         </div>
       </div>
-      <!--  -->
+    
       <div class=" experienceGrid_item">
         <div class=" row justify-content-between">
 
@@ -124,7 +126,7 @@
           </div>
         </div>
       </div>
-      <!--  -->
+    
       <div class=" experienceGrid_item">
         <div class=" row justify-content-between">
 
@@ -143,7 +145,7 @@
     </div>
 
 
-  </section>
+  </section> -->
 
 
   <!-- services section -->
@@ -157,8 +159,7 @@
             </h3>
             <h4 data-aos="zoom-in-up"
               class="large_heading  font-Archivo  fontWeight800  headingColor fontHeading mt-3 aos-init aos-animate">
-              Find the
-              Perfect Solution for Your Business</h4>
+              Find the Perfect Solution for Your Business</h4>
           </div>
         </div>
 
@@ -168,45 +169,46 @@
           <div class="itemSlider_inner " style="background-image:url(images/service/services1.jpg);">
 
             <p class="small_heading fontWeight500 count">01</p>
-            <h3 class="heading my-3">
+            <h3 class=" mt-auto mb-0">
+              <span class="dot">
+                <span class="dot-inner">
+                </span>
+              </span>
               Digital Marketing
-            </h3>
-            <p class="service_discription title text-white ">
-              Ignite your online presence with our powerhouse digital marketing solutions. Dominate the digital realm,
-              boost your brand, and reach new heights with POV Media’s expert strategies.
-            </p>
-            <a href="" class="linkBtn mt-3">Learn More</a>
-
-          </div>
+            </h3></div>
         </div>
         <div class="itemSlider  ">
           <div class="itemSlider_inner" style="background-image:url(images/service/services2.png);">
             <p class="small_heading fontWeight500 count">02</p>
-            <h3 class="heading my-3">
+            <h3 class=" mt-auto mb-0">
+              <span class="dot">
+                <span class="dot-inner">
+                </span>
+              </span>
               Social Media Management
-            </h3>
-            <p class="service_discription title text-white ">
-              Unleash the power of social media and captivate your audience with our stellar social media management
-              services. From content creation to community engagement, we’ll help your brand shine, trend, and soar high
-              in the social sphere.
-            </p>
-            <a href="" class="linkBtn mt-3">Learn More</a>
-
-          </div>
+            </h3></div>
         </div>
         <div class="itemSlider">
           <div class="itemSlider_inner" style="background-image:url(images/service/services3.png);">
             <p class="small_heading fontWeight500 count">03</p>
-            <h3 class="heading my-3">
+            <h3 class=" mt-auto mb-0">
+              <span class="dot">
+                <span class="dot-inner">
+                </span>
+              </span>
               Content Marketing
+            </h3></div>
+        </div>
+        <div class="itemSlider">
+          <div class="itemSlider_inner" style="background-image:url(images/influencer-marketing1.jpg);">
+            <p class="small_heading fontWeight500 count">04</p>
+            <h3 class=" mt-auto mb-0">
+              <span class="dot">
+                <span class="dot-inner">
+                </span>
+              </span>
+              Influencer Marketing
             </h3>
-            <p class="service_discription title text-white ">
-              Unleash the power of words and watch your brand soar with our extraordinary content marketing services.
-              From captivating articles to engaging videos, we’ll fuel your online presence and leave a lasting
-              impression.
-            </p>
-            <a href="" class="linkBtn mt-3">Learn More</a>
-
           </div>
         </div>
 
@@ -217,7 +219,7 @@
     </div>
   </section>
   <!-- call action -->
-  <section class="callActionBg ">
+  <section class="callActionBg2 ">
     <div class="containerFull">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 aos-init aos-animate" data-aos="zoom-in-up">
@@ -233,7 +235,7 @@
   </section>
   <!-- Why Choose Us -->
 
-  <section class="leftElement">
+  <!-- <section class="leftElement">
     <div class="containerFull">
       <div class="row">
         <div class="col-lg-5 col-md-5 aos-init aos-animate" data-aos="zoom-in-up">
@@ -245,7 +247,7 @@
           <div class="rightProcess ps-lg-5">
             <h5 class=" text-uppercase text_primary procesBorder text-color1 fontWeight700 heading">Why Choose Us</h5>
             <h4 class="large_heading fontWeight800 text-uppercase font-Archivo mt-1 ">Your Partner in Growth</h4>
-            <!-- <h3 class="heading fontWeight600 mt-3">6-Step Process</h3> -->
+          
             <ul>
               <li>We start by discussing your campaign's demands and objectives to gain a clear understanding of your
                 business needs.</li>
@@ -261,7 +263,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- case study -->
   <section>
 
@@ -284,9 +286,10 @@
         </div>
         <br />
         <div class="col-lg-12 mt-5 ">
-
         </div>
-        <div class="gallery_product col-lg-3 filter seo ">
+      </div>
+      <div class="row m-0 p-0">
+        <div class="gallery_product col-lg-6 filter seo ">
           <div class="gallery_product_inner w-100  ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
@@ -305,7 +308,7 @@
             </div>
           </div>
         </div>
-        <div class="gallery_product col-lg-3 filter ppc ">
+        <div class="gallery_product col-lg-6 filter ppc ">
           <div class="gallery_product_inner w-100 ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
@@ -324,7 +327,7 @@
             </div>
           </div>
         </div>
-        <div class="gallery_product col-lg-3 filter ContentMarketing ">
+        <div class="gallery_product col-lg-6 filter ContentMarketing ">
           <div class="gallery_product_inner w-100 ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
@@ -345,7 +348,7 @@
             </div>
           </div>
         </div>
-        <div class="gallery_product col-lg-3 filter ContentMarketing ">
+        <div class="gallery_product col-lg-6 filter ContentMarketing ">
           <div class="gallery_product_inner w-100 ">
             <div class="arrowIcon rounded-circle d-flex position-absolute ">
               <i class="fa fa-arrow-right  text-white "></i>
@@ -354,7 +357,7 @@
 
             <div class="p-3  text-white">
               <h4>
-                Content Marketing
+                Influencer Marketing
                 <!-- <i class="fa fa-arrow-right  text-white "></i> -->
               </h4>
 
@@ -366,16 +369,12 @@
             </div>
           </div>
         </div>
-
-
-
-
 
       </div>
     </div>
   </section>
   <!-- call action -->
-  <section class="callActionBg">
+  <!-- <section class="callActionBg">
     <div class="containerFull">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 aos-init aos-animate" data-aos="zoom-in-up">
@@ -387,9 +386,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- call action -->
-  <section class="py-5 lightGrey">
+  <section class="py-5" style="background:#f1f1f1">
     <div class="containerFull">
       <div class="row">
         <div class="col-lg-10 offset-lg-1">
@@ -546,9 +545,11 @@
   <!-- contact -->
   <section>
     <div class="containerFull">
-      <h4 class="large_heading text-center fontWeight800 font-Archivo  " data-aos="fade-up" >Have a project? We would love to help.</h4>
-      <h5 class="mt-3 text-center small_heading" data-aos="fade-up" >Ready to work together? Get an estimate from us.</h5>
-      <div class="row" data-aos="fade-up" >
+      <h4 class="large_heading text-center fontWeight800 font-Archivo  " data-aos="fade-up">Have a project? We would
+        love to help.</h4>
+      <h5 class="mt-3 text-center small_heading" data-aos="fade-up">Ready to work together? Get an estimate from us.
+      </h5>
+      <div class="row" data-aos="fade-up">
         <div class="col-lg-10 offset-lg-1">
           <div class="formBlock position-relative">
             <h3 class="sub_heading fontKanit">Hello, POV MEDIA. team!</h3>
@@ -656,11 +657,7 @@
     </div>
   </section>
 
-  <!-- client slider -->
-  <div class="home_client_slider">
-
-    <?php include 'include/client-slider.php'; ?>
-  </div>
+ 
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/footer-links.php'; ?>

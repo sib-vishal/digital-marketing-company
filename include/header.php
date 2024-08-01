@@ -22,18 +22,19 @@
 							<li><a href="digital-marketing.php">Digital Marketing</a></li>
 							<li><a href="social-media-management.php">Social Media Management</a></li>
 							<li><a href="content-marketing.php">Content Marketing</a></li>
+							<li><a href="influencer-marketing.php">Influencer Marketing</a></li>
 
 						</ul>
 					</li>
 					<li><a href="portfolio.php">Portfolio</a></li>
-					<li><a href="">Case Studies</a>
-						<ul>
+					<li><a href="case-studies.php">Case Studies</a>
+						<!-- <ul>
 							<li><a href="case-study-details.php">Case study 1</a></li>
 							<li><a href="case-study-details.php">Case study 2</a></li>
 							<li><a href="case-study-details.php">Case study 3</a></li>
 
 
-						</ul>
+						</ul> -->
 					</li>
 
 					<li><a href="our-clients.php">Our Clients</a></li>

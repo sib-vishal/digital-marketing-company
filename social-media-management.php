@@ -24,26 +24,19 @@
         <?php include 'include/header.php'; ?>
 
 
-        <div class="services-main position-relative  ">
+        <div class="services-main  social-media-service position-relative  ">
             <div class="containerFull w-100">
-                <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo">Social Media Management
+                <div class=" services_banner_first  ">
+                    <h1 class="fontWeight800   banner_heading font-Archivo">Social Media <br> Management
                     </h1>
-                    <p class="text-white small_heading mt-3">
+                    <p class=" small_heading mt-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
                 </div>
             </div>
 
-            <div class="custom-shape-divider-top-1718012193">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                    preserveAspectRatio="none">
-                    <path
-                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-                        class="shape-fill"></path>
-                </svg>
-            </div>
+
         </div>
 
 
@@ -79,7 +72,7 @@
                         solutions.
                         Dominate the digital
                         realm, boost your brand, and reach new heights with POV Media’s expert strategies.
-                        
+
                     </p>
                 </div>
                 <!-- <div class="d-flex gap-4">
@@ -236,26 +229,7 @@
                         </div>
 
                     </div>
-                    <div class=" box mt-4 ">
-                        <div>
-                            <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
-
-                            <h4 class="mt-4 font-Archivo fontWeight600">
-                                Strategic Planning
-                            </h4>
-                            <p class="mt-3 title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                            </p>
-                        </div>
-
-                    </div>
+                    
                 </div>
                 <div class="col-lg-5 position-relative">
                     <div class="w-100 service_imgbox  shadow sticky-lg-top z-1 ">
@@ -281,9 +255,10 @@
         <div class="containerFull">
             <div class="row text-white">
                 <div class="col-lg-5 md-mb-10px appear anime-child anime-complete">
-                    <h3 class="large_heading font-Archivo fontWeight800 " style="">We want
+                    <h3 class="large_heading font-Archivo fontWeight800 mb-3 " style="">We want
                         to bring and business the
                         digital world.</h3>
+                        <a data-aos="" href="#" data-aos-delay="250" class="btn_1 aos-init aos-animate" data-fancybox="" data-src="#dialog-content">Let's work togather <i class="fa fa-arrow-right"></i></a>
                 </div>
                 <div class="col-lg-7 appear anime-child anime-complete">
                     <div class="row" style="">
@@ -310,227 +285,12 @@
                                 expectations of our customers.</p>
                         </div>
                     </div>
-                    <div class=" my-4 separator-line-1px border-bottom border-color-extra-medium-gray mt-40px mb-40px sm-mt-30px sm-mb-30px"
-                        style=""></div>
-                    <div class="row" style="">
-                        <div class="col-md-5">
-                            <div class="text-color3 fontWeight600 heading ">Committed to deliver
-                                unique digital media.</div>
-                        </div>
-                        <div class="col-md-7 last-paragraph-no-margin">
-                            <p class="text-white title">We value each and every human life placed our hands constantly
-                                work towards meeting the
-                                expectations of our customers.</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </section>
-    <!-- **************************** -->
-    <section class="dm_creative ">
-        <div class="containerFull">
-            <div class="row mb-8 align-items-center">
-                <div class="col-lg-5 md-mb-50px sm-mb-30px ">
-                    <figure class="position-relative  shadow mb-0 overflow-hidden">
-                        <img src="images/why.jpg" class="w-100 " alt="" data-no-retina="">
-                        <figcaption class="figcaption">
-                            <h1 class="large_heading fontWeight800 d-flex justify-content-center text-color1 ">20<sub
-                                    class="fs-40 lh-40 text-dark-gray position-relative top-minus-40px">+</sub></h1>
-                            <span class="title fontWeight600">Years
-                                working experience</span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-lg-7 dm_creative_right">
-                    <h2 class="large_heading fontWeight800  font-Archivo" style="">We're a
-                        creative digital agency.</h2>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        With over 28 years of experience we have been constantly providing excellent web solutions is
-                        best in-class experience.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, delectus nesciunt? Voluptas
-                        asperiores molestiae recusandae porro iusto autem eius placeat!
-                    </p>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        We constantly providing excellent web solutions is best in-class experience.</p>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        We constantly providing excellent web solutions is best in-class experience.</p>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        We constantly providing excellent web solutions is best in-class experience. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
-                        voluptatum quaerat optio vel repudiandae?</p>
-                    <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1"  data-fancybox data-src="#dialog-content" >Let's
-                            talk now<i class="fa-regular fa-envelope icon "></i></a>
-                        <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
-                            &nbsp;+91-9769245614</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- faq -->
-    <section class="bggray dm_accordion">
-
-
-        <div class="containerFull ">
-
-            <div class="row">
-                <div class="col-lg-6">
-
-                    <h4 class="large_heading fontWeight800 mt-3 font-Archivo">
-                        <span class="text-color1">
-                            Frequently
-                        </span> Asked Questions
-                    </h4>
-                    <p class="mt-3 title">
-                        Our in-house team of recruitment specialists will nurture your leads all the way through to
-                        completed application.
-                    </p>
-                    <p class="mt-3 title">We as a full service leading digital marketing firm, offers customized
-                        story-based digital
-                        marketing services to build, promote & scale your brand so it can clearly & easily attract your
-                        ideal clients.</p>
-                    <div class="mt-4 ">
-                        <a href="contact-us.php" class="btn_1">Let's discuss <i class="fa fa-arrow-right"></i></a>
-                    </div>
-
-
-                </div>
-                <div class="col-lg-6">
-                    <div class="">
-                        <div class="accordion accordion-flush py-1 " id="accordionFlushExample">
-                            <div class="accordion-item ">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        Accordion Item #1
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                        accordion
-                                        body.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo">
-                                        Accordion Item #2
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                        accordion
-                                        body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                        Accordion Item #3
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion
-                                        body. Nothing more exciting happening here in terms of content, but just filling
-                                        up the
-                                        space to make it look, at least at first glance, a bit more representative of
-                                        how this
-                                        would
-                                        look in a real-world application.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2 ">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse1" aria-expanded="false"
-                                        aria-controls="flush-collapse1">
-                                        Accordion Item #1
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                        accordion
-                                        body.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo1" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo1">
-                                        Accordion Item #2
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                        accordion
-                                        body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-2">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree1" aria-expanded="false"
-                                        aria-controls="flush-collapseThree1">
-                                        Accordion Item #3
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion
-                                        body. Nothing more exciting happening here in terms of content, but just filling
-                                        up the
-                                        space to make it look, at least at first glance, a bit more representative of
-                                        how this
-                                        would
-                                        look in a real-world application.</div>
-                                </div>
-                            </div>
-                            <!-- n -->
-                            <div class="accordion accordion-flush py-1 " id="accordionFlushExample">
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-    </section>
+   
 
 
     <!-- client slider -->

@@ -26,25 +26,25 @@
 
         <div class="services-main position-relative  ">
             <div class="containerFull w-100">
-                <div class=" services_banner_first text-center ">
-                    <h1 class="fontWeight800  text-white banner_heading font-Archivo" data-aos="flip-up">Digital
+                <div class=" services_banner_first  ">
+                    <h1 class="fontWeight800   banner_heading font-Archivo" data-aos="flip-up">Digital
                         Marketing
                     </h1>
-                    <p class="text-white small_heading mt-3" data-aos="fade-up">
+                    <p class=" small_heading mt-3" data-aos="fade-up">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi laudantium reiciendis
                         ducimus, exercitationem, corrupti inventore
                     </p>
                 </div>
             </div>
 
-            <div class="custom-shape-divider-top-1718012193">
+            <!-- <div class="custom-shape-divider-top-1718012193">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
                         d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
                         class="shape-fill"></path>
                 </svg>
-            </div>
+            </div> -->
         </div>
 
 
@@ -217,26 +217,7 @@
                         </div>
 
                     </div>
-                    <div class=" box mt-4 ">
-                        <div>
-                            <img width="100" src="images/service/planning.gif" alt="Strategic Planning">
-
-                            <h4 class="mt-4 font-Archivo fontWeight600">
-                                Strategic Planning
-                            </h4>
-                            <p class="mt-3 title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus quam saepe
-                                quibusdam quia dolorum necessitatibus libero ea laudantium nemo alias dolores error
-                                labore
-                                laboriosam laborum, mollitia rerum. Amet, praesentium.
-                            </p>
-                        </div>
-
-                    </div>
+                   
                 </div>
                 <div class="col-lg-5 position-relative">
                     <div class="w-100 service_imgbox  shadow sticky-lg-top z-1 ">
@@ -294,69 +275,15 @@
                                 expectations of our customers.</p>
                         </div>
                     </div>
-                    <div class=" my-4 separator-line-1px border-bottom border-color-extra-medium-gray mt-40px mb-40px sm-mt-30px sm-mb-30px"
-                        style=""></div>
-                    <div class="row" style="">
-                        <div class="col-md-5">
-                            <div class="text-color3 fontWeight600 heading ">Committed to deliver
-                                unique digital media.</div>
-                        </div>
-                        <div class="col-md-7 last-paragraph-no-margin">
-                            <p class="text-white title">We value each and every human life placed our hands constantly
-                                work towards meeting the
-                                expectations of our customers.</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
     </section>
-    <!-- **************************** -->
-    <section class="dm_creative overflow-hidden ">
-        <div class="containerFull">
-            <div class="row mb-8 align-items-center">
-                <div class="col-lg-5 md-mb-50px sm-mb-30px " data-aos="fade-up-right">
-                    <figure class="position-relative  shadow mb-0 overflow-hidden">
-                        <img src="images/why.jpg" class="w-100 " alt="" data-no-retina="">
-                        <figcaption class="figcaption">
-                            <h1 class="large_heading fontWeight800 d-flex justify-content-center text-color1 ">20<sub
-                                    class="fs-40 lh-40 text-dark-gray position-relative top-minus-40px">+</sub></h1>
-                            <span class="title fontWeight600">Years
-                                working experience</span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-lg-7 dm_creative_right"  data-aos="fade-up-left">
-                    <h2 class="large_heading fontWeight800  font-Archivo" style="">We're a
-                        creative digital agency.</h2>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        With over 28 years of experience we have been constantly providing excellent web solutions is
-                        best in-class experience.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, delectus nesciunt? Voluptas
-                        asperiores molestiae recusandae porro iusto autem eius placeat!
-                    </p>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        We constantly providing excellent web solutions is best in-class experience.</p>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        We constantly providing excellent web solutions is best in-class experience.</p>
-                    <p class="mt-3 title" style="">We are excited for our work and how it positively impacts clients.
-                        We constantly providing excellent web solutions is best in-class experience. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Ducimus placeat, perferendis architecto dolorum natus sit
-                        voluptatum quaerat optio vel repudiandae?</p>
-                    <div class="d-inline-block w-100 mt-4" style="">
-                        <a href="#" class="btn_1" data-fancybox data-src="#dialog-content">Let's
-                            talk now<i class="fa-regular fa-envelope icon "></i></a>
-                        <a href="tel:+91-9769245614" class="btn_2 "><i class="fa-solid fa-phone icon"></i>
-                            &nbsp;+91-9769245614</a>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </section>
 
     <!-- faq -->
-    <section class="bggray dm_accordion">
+    <!-- <section class="bggray dm_accordion">
 
 
         <div class="containerFull ">
@@ -498,7 +425,7 @@
                                         look in a real-world application.</div>
                                 </div>
                             </div>
-                            <!-- n -->
+                          
                             <div class="accordion accordion-flush py-1 " id="accordionFlushExample">
 
                             </div>
@@ -514,7 +441,7 @@
         </div>
 
 
-    </section>
+    </section> -->
 
 
     <!-- client slider -->

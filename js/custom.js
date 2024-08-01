@@ -161,47 +161,7 @@ window.addEventListener("mousemove", (ev) => {
   });
 });
 
-$(".serviceSlider").slick({
-  dots: false,
-  infinite: true,
-  speed: 500,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  arrows: true,
-  prevArrow:
-    "<button type='button' class='slick-prev pull-left'><i class='bi bi-chevron-left'></i></button>",
-  nextArrow:
-    "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
-  slidesToScroll: 1,
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        arrows: false,
-      },
-    },
-  ],
-});
+
 $(".reviews").slick({
   dots: false,
   infinite: true,
